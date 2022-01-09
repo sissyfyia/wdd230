@@ -3,10 +3,29 @@ body {
     line-height:1.5;
 }
 header {
-    background-color:blueviolet;
-    color: gray 
+    max-width: 800px;
+    background-color:coral;
+    color: black; 
+    font-family: "Lucida Handwriting", cursive;
+}
+h1 {
+    display: inline;
+    float: right;
+}
+img {
+    float: top left;
+    width: 200px;
+    padding: 0px;
+    border: 2px solid black;
 }
 
 main {
-    text-align: center;
+    text-align: left;
+    font-family: "Courier New", monospace;
+}
+footer {
+    max-width: 800px;
+    background-color:coral;
+    color: black; 
+    font-family: "Courier New", monospace;
 }
