@@ -1,0 +1,24 @@
+@media only screen and (min-width: 32.5em) {
+
+    body {
+        font-size: 1.8rem;
+    }
+
+    header {
+        max-width: 1800px;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
+
+    h2{
+        font-size:2rem;
+    }
+    
+    footer {
+        font-size: 1rem;
+        max-width: 1800px;
+    }
+
+}

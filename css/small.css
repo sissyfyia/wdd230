@@ -1,22 +1,29 @@
 body {
-    font-size:18px;
+    font-size:1.4rem;
     line-height:1.5;
 }
 header {
-    max-width: 800px;
+    max-width: 500px;
     background-color:coral;
-    color: black; 
-    font-family: "Lucida Handwriting", cursive;
+    color: rgb(124, 107, 107); 
+    font-family: 'The Nautigal', cursive;
 }
 h1 {
+    font-size:3rem;
     display: inline;
-    float: right;
+    padding:5px;
 }
+
 img {
     float: top left;
     width: 200px;
-    padding: 0px;
+    margin-left: 20px;
     border: 2px solid black;
+}
+
+h2 {
+    font-size:1.5rem;
+    font-family: "Courier New", monospace;
 }
 
 main {
@@ -24,7 +31,8 @@ main {
     font-family: "Courier New", monospace;
 }
 footer {
-    max-width: 800px;
+    font-size: 0.8rem;
+    max-width: 500px;
     background-color:coral;
     color: black; 
     font-family: "Courier New", monospace;
