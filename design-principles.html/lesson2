@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Design Principles for WDD230 lesson 2">
+     
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+     <link href ="css/small.css" rel = "stylesheet" type ="text/css">
+     <link href ="css/medium.css" rel = "stylesheet" type ="text/css">
+     <link href ="css/large.css" rel = "stylesheet" type ="text/css">
+     <link href ="design-principles/lesson2.html">
+     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+     <title>Lesson 2 Design Principles for WDD230</title>
+    </head>
+    <body>
+        <header>
+            <h1>Lesson 02</h1>
+        </header>
+    <main>
+        <h2>PARC: Alignment of Denver Museum of Arts Homepage</h2>
+
+        <!--hyperlink to site-->
+
+        <!--image here -->
+
+        <p>This site shows excellent use of alignment. Each
+            heading lines up with the following heading or 
+            image and it keeps the block sections
+            throughout without too much similarity. It is pleasing
+            to the eye and easy to see how each section aligns 
+            with the next.
+        </p>
+        
+        <h2>PARC: Repetition of Denver Museum of Arts Art Section</h2>
+
+        <!--hyperlink and img-->
+
+        <p>This link on the site gives us a great example of Repetition
+            as it continues the left and right block formation from the homepage. 
+            It also has repetition of the fonts and layout from the homepage.
+        </p>
+
+        <h2>White Space and Clean Design on Denver Museum of Arts Programs Section</h2>
+
+        <!--hyperlink and img-->
+
+        <p>You can see that this page from Denver Museum of Arts Programs section 
+            has nice clean alignment and color use to give the focus to each 
+            individual section on the page. This page has literal white space that is 
+            used very well to keep your eyes flowing down the page.
+        </p>
+
+
+    </main>
+    
+    </body>
