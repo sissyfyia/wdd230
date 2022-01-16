@@ -1,0 +1,27 @@
+@media only screen and (min-width: 60em) {
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    body {
+        font-size: 2rem;
+    }
+
+    header {
+        max-width: 1800px;
+    }
+
+    h1{
+        font-size: 6rem;
+    }
+
+    h2{
+        font-size:2.3rem;
+    }
+    
+    footer {
+        font-size: 1.2rem;
+        max-width: 1800px;
+    }
+
+}

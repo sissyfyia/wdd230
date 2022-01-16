@@ -4,14 +4,15 @@ body {
 }
 header {
     max-width: 500px;
-    background-color:coral;
-    color: rgb(124, 107, 107); 
+    background-color:#294936;
+    color: #B6D7B9; 
     font-family: 'The Nautigal', cursive;
 }
 h1 {
     font-size:3rem;
     display: inline;
     padding:5px;
+    text-align:left;
 }
 
 img {
@@ -23,17 +24,29 @@ img {
 
 h2 {
     font-size:1.5rem;
-    font-family: "Courier New", monospace;
+    font-family: "Marcellus", serif;
+    background-color: #D0F1BF;
 }
 
 main {
+    grid-template-columns: 1fr;
     text-align: left;
     font-family: "Courier New", monospace;
+    max-width:500px
 }
+
 footer {
     font-size: 0.8rem;
     max-width: 500px;
-    background-color:coral;
+    background-color:#294936;
     color: black; 
-    font-family: "Courier New", monospace;
+    font-family: "Marcellus", serif;
+}
+
+.part1 {
+    border-radius:5px;
+}
+
+.part2 {
+    border-radius: 5px;
 }
