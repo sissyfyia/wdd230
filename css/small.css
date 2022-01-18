@@ -2,23 +2,22 @@ body {
     font-size:1.4rem;
     line-height:1.5;
 }
+
 header {
     max-width: 500px;
     background-color:#294936;
     color: #B6D7B9; 
     font-family: 'The Nautigal', cursive;
 }
+
 h1 {
     font-size:3rem;
-    display: inline;
-    padding:5px;
     text-align:left;
 }
 
 img {
     float: top left;
     width: 200px;
-    margin-left: 20px;
     border: 2px solid black;
 }
 
@@ -29,7 +28,6 @@ h2 {
 }
 
 main {
-    grid-template-columns: 1fr;
     text-align: left;
     font-family: "Courier New", monospace;
     max-width:500px
@@ -43,10 +41,8 @@ footer {
     font-family: "Marcellus", serif;
 }
 
-.part1 {
-    border-radius:5px;
+.top .middle .end{
+    display:grid;
+    grid-columns: 1/ span 3;
 }
 
-.part2 {
-    border-radius: 5px;
-}
