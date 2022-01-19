@@ -11,12 +11,12 @@ header {
 }
 
 h1 {
-    font-size:3rem;
+    font-size:1.8rem;
     text-align:left;
 }
 
 img {
-    float: top left;
+    float:left;
     width: 200px;
     border: 2px solid black;
 }
@@ -27,7 +27,14 @@ h2 {
     background-color: #D0F1BF;
 }
 
+p {
+    font-size: 0.7rem;
+}
+
 main {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:1em;
     text-align: left;
     font-family: "Courier New", monospace;
     max-width:500px
@@ -41,8 +48,8 @@ footer {
     font-family: "Marcellus", serif;
 }
 
-.top .middle .end{
-    display:grid;
-    grid-columns: 1/ span 3;
+.container {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
 }
 

@@ -12,16 +12,25 @@
     }
 
     h1{
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     h2{
         font-size:2rem;
     }
+
+    p {
+        font-size: 0.8rem;
+    }
     
     footer {
         font-size: 1rem;
         max-width: 1800px;
+    }
+
+    .container {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
     }
 
 }
