@@ -1,8 +1,5 @@
 @media only screen and (min-width: 60em) {
 
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
     body {
         font-size: 2rem;
     }
@@ -12,11 +9,15 @@
     }
 
     h1{
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     h2{
         font-size:2.3rem;
+    }
+
+    h3, a {
+        font-size: 1.8rem;
     }
 
     p {
@@ -28,8 +29,14 @@
         max-width: 1800px;
     }
     .container {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1em;
+    }
+
+    .part1, .part2, .part3 {
+        padding: 1em;
+        min-width: 380px;
     }
 
 }
