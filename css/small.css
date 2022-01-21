@@ -45,17 +45,37 @@ p {
 }
 
 main {
-    text-align: left;
     font-family: "Courier New", monospace;
-    max-width:500px
 }
 
+ul {
+    margin: 70px;
+    text-align: center;
+    list-style: none;
+}
 footer {
     font-size: 0.8rem;
     max-width: 500px;
     background-color:#294936;
     color: black; 
     font-family: "Marcellus", serif;
+}
+
+.topline {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+}
+
+.topline h1 {
+    padding: 60px;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #eee;
+    grid-gap: 1em;
 }
 
 .container {
