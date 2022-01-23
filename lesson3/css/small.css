@@ -1,0 +1,51 @@
+body {
+    font-size:1.4rem;
+    line-height:1.5;
+}
+
+img {
+    float: right;
+    width: 250px;
+    border: 3px solid #605C4E;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 75% 20%;
+    min-width:200px;
+    background-color:#0A122A ;
+    color: #605C4E ;
+    margin: 25px;
+}
+
+h1, h2, h3 {
+    margin: 10px;
+    font-family: 'Lily Script One', cursive;
+}
+
+p {
+    margin: 5px;
+}
+
+main {
+    font-family: 'Slabo 27', serif;
+    text-align: center;
+    margin: 70px;
+}
+
+.slabo {
+    font-family: 'Slabo 27', serif;
+}
+
+ul {
+    margin: 70px;
+    text-align: center;
+    list-style: none;
+}
+
+footer {
+    background-color: #0A122A;
+    font-family: 'Slabo 27', serif;
+    color:#605C4E;
+    margin: 25px;
+}
