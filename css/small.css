@@ -8,6 +8,7 @@ header {
     background-color:#294936;
     color: #B6D7B9; 
     font-family: 'The Nautigal', cursive;
+    border-radius:25px;
 }
 
 h1 {
@@ -20,7 +21,7 @@ a {
 
 img {
     margin: 10px;
-    width: 300px;
+    width: 200px;
     border: 2px solid black;
 }
 
@@ -55,10 +56,11 @@ ul {
 }
 footer {
     font-size: 0.8rem;
-    max-width: 500px;
     background-color:#294936;
     color: black; 
     font-family: "Marcellus", serif;
+    margin: 50px;
+    border-radius: 25px;
 }
 
 .topline {
@@ -93,4 +95,8 @@ footer {
     background: #eee;
     max-width: 450px;
 
+}
+
+.end {
+    padding: 20px;
 }
