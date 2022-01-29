@@ -1,0 +1,96 @@
+header {
+    display: grid;
+    background-color:#0A122A ;
+    border-radius: 25px;
+    color: #C7C7A6;
+    margin: 25px;
+}
+
+body {
+    font-size:1.4rem;
+    line-height:1.5;
+    background-color: rgb(214, 216, 219);
+}
+
+h1 {
+    margin: 10px;
+    font-family: 'Lily Script One', cursive;
+}
+
+h2, h3 {
+    margin: 10px;
+    font-family: 'Slabo 27', serif;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #605C4E;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #C7C7A6;
+    text-decoration: none;
+    display:block;
+    padding: 0.8rem 2vw;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+nav ul {display: none;}
+nav ul.open {display:block;}
+
+#hamBtn span:nth-child(1) {display:block;}
+#hamBtn span:nth-child(2) {display:none;}
+
+#hamBtn.open span:nth-child(1) {display:none;}
+#hamBtn.open span:nth-child(2) {display:block;}
+
+main {
+    font-family: 'Slabo 27', serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 50px;
+}
+
+main p {
+    margin: 5px;
+    background-color: #C7C7A6;
+    line-height: 10rem;
+}
+
+footer {
+    display: grid;
+    background-color: #0A122A;
+    font-family: 'Slabo 27', serif;
+    color:#C7C7A6;
+    margin: 25px;
+    line-height: 1em;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#lastModified {
+	text-align: center;
+	font-size: smaller;
+}
+
+img {
+    border: 3px solid #605C4E;
+    margin: 10px;
+    width: 250px;
+}

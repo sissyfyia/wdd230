@@ -1,0 +1,19 @@
+@media only screen and (min-width: 41rem){
+
+    nav button {
+        display: none;
+    }
+
+    nav ul#navBar {
+        display: flex;
+        margin-left: 2vw;
+        justify-content: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+}
