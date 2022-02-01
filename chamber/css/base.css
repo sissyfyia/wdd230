@@ -1,7 +1,7 @@
 header {
     display: grid;
     background-color:#0A122A ;
-    border-radius: 25px;
+    border-radius: 15px;
     color: #C7C7A6;
     margin: 25px;
 }
@@ -63,14 +63,22 @@ nav ul.open {display:block;}
 main {
     font-family: 'Slabo 27', serif;
     font-size: 25px;
-    text-align: center;
-    margin: 50px;
+    margin: 20px;
+    text-align: left;
+    
 }
 
 main p {
     margin: 5px;
     background-color: #C7C7A6;
-    line-height: 10rem;
+    line-height: 25rem;
+    border-radius: 5px;
+    text-align:left;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 footer {
@@ -81,7 +89,7 @@ footer {
     margin: 25px;
     line-height: 1em;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 #lastModified {
@@ -94,3 +102,4 @@ img {
     margin: 10px;
     width: 250px;
 }
+
