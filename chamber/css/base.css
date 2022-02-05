@@ -6,6 +6,25 @@ header {
     margin: 25px;
 }
 
+section.banner {
+    background-color: #0A122A;
+}
+
+section.banner a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    border-top: solid 2px #C7C7A6;
+}
+
+div span {
+    display: inline-block;
+    color: #C7C7A6;
+    text-align: center;
+    padding: 1rem;
+}
+
 body {
     font-size:1.4rem;
     line-height:1.5;
@@ -67,16 +86,17 @@ main {
     text-align: left;    
 }
 
-main p {
+main div p {
     margin: 5px;
     background-color: #C7C7A6;
-    line-height: 25rem;
+    line-height: 15rem;
     border-radius: 5px;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 1em;
 }
 
 footer {
