@@ -64,8 +64,7 @@ main {
     font-family: 'Slabo 27', serif;
     font-size: 25px;
     margin: 20px;
-    text-align: left;
-    
+    text-align: left;    
 }
 
 main p {
@@ -73,7 +72,6 @@ main p {
     background-color: #C7C7A6;
     line-height: 25rem;
     border-radius: 5px;
-    text-align:left;
 }
 
 .container {
