@@ -1,18 +1,16 @@
 header {
     display: grid;
-    grid-template-columns: 75% 20%;
     background-color:#0A122A ;
-    border-radius: 25px;
+    border-radius: 15px;
     color: #C7C7A6;
-    margin: 25px;
 }
 
-img {
+/*img {
     display: flex;
     border: 3px solid #605C4E;
     margin: 10px;
     width: 250px;
-}
+}*/
 
 body {
     font-size:1.4rem;
@@ -35,25 +33,39 @@ h2, h3 {
     font-family: 'Slabo 27', serif;
 }
 
+nav ul {
+    background-color: #605C4E;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #C7C7A6;
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem 2vw;
+    flex-wrap: wrap;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
 p {
     margin: 5px;
 }
 
 main {
     font-family: 'Slabo 27', serif;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     margin: 50px;
 }
 
 .slabo {
     font-family: 'Slabo 27', serif;
-}
-
-ul {
-    margin: 50px;
-    text-align: left;
-    list-style: circle;
 }
 
 footer {
@@ -72,5 +84,5 @@ a {
     margin: 10px;
     padding: 15px;
     line-height: 5em;
-    font-size: 30px;
+    font-size: 20px;
 }

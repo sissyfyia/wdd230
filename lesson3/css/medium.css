@@ -1,0 +1,18 @@
+@media only screen and (min-width: 51rem){
+    
+    nav ul a {
+        display: flex;
+        margin-left: 2vw;
+        justify-content: center;
+    }
+
+    main p {
+        font-size: 20px;
+    }
+
+    main h1
+
+    a {
+        font-size: 30px;
+    }
+}
