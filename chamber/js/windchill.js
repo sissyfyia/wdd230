@@ -1,15 +1,23 @@
-let temperature = parseFloat(document.querySelector('#temperature').innerHTML);
-let speed = parseFloat(document.querySelector('#speed').innerHTML);
-let windChill = "";
+let temperature = document.querySelector('#temperature').innerHTML;
+let speed = document.querySelector('#speed').innerHTML;
+let windChill = document.querySelector("#windChill");
 
-if (temperature <= 50 && speed > 3) {
-    windchill = windChill(temperature, speed);
+console.log(temperature);
+console.log(speed);
+function getChill(temperature, speed) {
+
+    let chill= 35.74 + 0.6215 * temperature - 35.75 * (speed ** 0.16) + 0.46275 * temperature * (speed ** 0.16);
+    chill = Math.floor(chill);
+    console.log(chill);
+
+    return chill;
+    
+}
+
+if (temperature <= 50 && speed >= 3) {
+    let finalChill = getChill(temperature, speed);
+    windChill.innerHTML = finalChill;
 } else {
-    windchill = 'N/A';
+    let windChill = 'N/A';
 }
 
-document.querySelector('#wind').innerHTML = windchill;
-
-function windChill(t, s) {
-    return '35.74+0.6215*temperature-35.75*speed^0.16+0.46275*temperature*speed^0.16';
-}
