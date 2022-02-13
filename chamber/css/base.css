@@ -86,11 +86,12 @@ main {
     text-align: left;    
 }
 
-main div p {
+main div {
     margin: 5px;
     background-color: #C7C7A6;
-    line-height: 15rem;
+    line-height: 1rem;
     border-radius: 5px;
+    border: white solid 2px;
 }
 
 .container {
@@ -121,3 +122,9 @@ img {
     width: 250px;
 }
 
+section {
+    margin: 2px;
+    background-color: #C7C7A6;
+    line-height: 1rem;
+    border-radius: 5px;
+}
