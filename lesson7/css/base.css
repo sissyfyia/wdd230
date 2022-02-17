@@ -1,6 +1,26 @@
-img {
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    background-color: #2cc9bf;
+    text-align: center;
+}
+
+main {
     display: grid;
-    grid-template-columns: 1fr;
+    max-width: 550px;
+    margin: auto;
+}
+
+img {  
     min-width: 300px;
     min-height: 400px;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: #5a6c32;
+    font-size: 40px;
+    text-align: center;
 }
