@@ -1,4 +1,6 @@
 img {
+    display: grid;
+    grid-template-columns: 1fr;
     min-width: 300px;
     min-height: 400px;
 }
