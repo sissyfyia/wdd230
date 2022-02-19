@@ -150,3 +150,7 @@ section {
 .discover p {
     max-width: 50%;
 }
+
+.endImages {
+    display: grid;
+}
