@@ -37,6 +37,7 @@ h1 {
 }
 
 h2, h3 {
+    background-color: #605C4E;
     font-family: 'Slabo 27', serif;
     padding: 1em;
 }
@@ -86,15 +87,6 @@ main {
     text-align: left;    
 }
 
-/*main div {
-    margin: 5px;
-    background-color: #C7C7A6;
-    line-height: 1rem;
-    border-radius: 5px;
-    padding: 1em;
-    border: solid black 2rem;
-}*/
-
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -123,10 +115,21 @@ img {
     width: 250px;
 }
 
+.discover picture img {
+    float: right;
+    border: 3px solid #605C4E;
+    margin: 15px;
+    width: 300px;
+}
+
+.discover picture img:hover {
+    box-shadow: 0 0 50px #333;
+}
+
 section {
     margin: 2px;
     background-color: #C7C7A6;
-    line-height: 1rem;
+    /*line-height: 1rem;*/
     border-radius: 5px;
 }
 
@@ -137,4 +140,13 @@ section {
 
 .weatherSpot {
     padding: 4px;
+}
+
+.discover {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.discover p {
+    max-width: 50%;
 }
