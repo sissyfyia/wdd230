@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Slabo+27px&display=swap" rel="stylesheet">
-
+<!--
+    <script type="text/javascript" src="js/dayrecord.js"></script>  -->
 </head>
 <body>
     <header>
@@ -100,10 +101,13 @@
     </main>
     
     <footer>
-        <div Class="lastVisit">Days since your last visit:</div>
+        <script>
+        document.getElementById("lastv").innerHTML = visit + " days ago. Welcome!";
+        localStorage.setItem('lastvisit', today);
+        </script>
         <a href="index.html">Home</a>
     </footer>
     <script src="js/imgload.js"></script>
-
+    <script type="text/javascript" src="js/dayrecord.js"> </script>
 </body>
 </html>
