@@ -1,0 +1,48 @@
+:root {
+	--back: rgb(165, 69, 141);
+    --back2: rgba(252, 145, 252, 0.877);
+    --foredark: rgb(46, 13, 18);
+	--forelight: hsla(0,0%,100%,1);
+	--border: rgb(34, 6, 15);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: rgb(129, 114, 127);
+	--zebra: rgb(247, 217, 243);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
