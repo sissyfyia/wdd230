@@ -1,0 +1,47 @@
+table {
+	margin: 10px auto;
+	border: thin solid;
+	box-shadow: grey 14px 9px 25px 4px;
+	border-collapse: collapse;
+	background-color: rgba(237, 237, 237, 0.8);
+}
+
+tr:first-child th {
+	background-color: rgba(180, 207, 175, 0.8);
+	color: black;
+    font-size: 2rem;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid grey;
+}
+
+th {
+	background-color: rgba(85, 140, 75, 0.8);
+	color: white;
+    font-size: 1.2rem;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgba(180, 252, 202, 0.8);
+}
+
+#bold {
+	background-color: rgba(85, 140, 75, 0.8);
+	color: white;
+}
+
+#base {
+    background-color: rgba(180, 207, 175, 0.8);
+	color: black;
+	font-size: 0.7rem;
+}
+
+#italic {
+    font-style: italic;
+}

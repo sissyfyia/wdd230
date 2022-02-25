@@ -1,61 +1,62 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creating Forms and tables</title>
+    <title>Lesson 8 table building</title>
+    <meta name="description" content="Practicing building tables and forms for BYUI WDD230">
 
-    <meta name="description" content="Practicing creating and styling forms or tables for BYUI WDD230 course" >
-    <link rel="stylesheet" href="css/table.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+
 </head>
 <body>
-<form>
     <table>
-        <caption>Table 1: Manassa Pop. by Age</caption>
         <thead>
             <tr>
-                <th colspan="3" scope="colgroup">Population 2020</th>
+                <th colspan="3" scope="colgroup">ACME Wildwest</th>
             </tr>
             <tr>
-                <th scope="col">Age Range</th>
-                <th scope="col">Percentage</th>
-                <th scope="col">Total Pop.</th>
+                <th scope="col">Period</th>
+                <th scope="col">Sales</th>
+                <th scope="col">Sales Goal </th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td scope="row">0-15</td>
-                <td>34%</td>
-                <td>342</td>
+                <td scope="row">August</td>
+                <td>$3,590</td>
+                <td>$4,000</td>
             </tr>
             <tr>
-                <td scope="row">16-30</td>
-                <td>14%</td>
-                <td> 135 </td>
+                <td scope="row">September</td>
+                <td>$4,420</td>
+                <td>$5,000</td>
             </tr>
             <tr>
-                <td scope="row">31-45</td>
-                <td> 18%</td>
-                <td>174</td>
+                <td scope="row">October</td>
+                <td>$4,870</td>
+                <td>$5,000</td>
             </tr>
             <tr>
-                <td scope="row">46-65</td>
-                <td>24%</td>
-                <td>243</td>
+                <td scope="row">November</td>
+                <td>$8,610</td>
+                <td id="bold">$7,500</td>
             </tr>
             <tr>
-                <td scope="row">66-85</td>
-                <td>10%</td>
-                <td>99</td>
+                <td id="italic" scope="row">Black Friday</td>
+                <td colspan="2">$3,200</td>
+            </tr>
+            <tr>
+                <td scope="row">December</td>
+                <td>$6,820</td>
+                <td>$7,500</td>
+            </tr>
+            <tr>
+                <th id="base" colspan="3">Compiled 12.20.2020 by bRauls</th>
             </tr>
         </tbody>
     </table>
-</form>
-<a href="../index.html">Home</a>
+    <a href="../index.html">Home</a>
 </body>
 </html>
