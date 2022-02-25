@@ -1,9 +1,9 @@
 function lastVisit() {
 
-let today = new Date();
+let today = Date.now();
 let millisecondsToDays = 86400000;
 let prior = localStorage.getItem('lastvisit');
-let obj = new Date(prior);
+let obj = Date.now(prior);
 
 if (prior != '') {
     visit = ((today - obj) / millisecondsToDays).toFixed(0);
@@ -14,4 +14,4 @@ if (prior != '') {
 document.getElementById("lastv").innerHTML = visit + " days ago. Welcome!";
 localStorage.setItem('lastvisit', today);
 }
-lastVisit();
+return lastVisit();
