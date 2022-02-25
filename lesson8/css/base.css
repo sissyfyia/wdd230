@@ -4,6 +4,7 @@ table {
 	box-shadow: grey 14px 9px 25px 4px;
 	border-collapse: collapse;
 	background-color: rgba(237, 237, 237, 0.8);
+    font-family: 'Ubuntu', 'san-serif';
 }
 
 tr:first-child th {
