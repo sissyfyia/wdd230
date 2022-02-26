@@ -22,18 +22,9 @@
         grid-column: 20%;
     }
 
-    /*
-    .item1 .item2 .item3 {
-        grid-template-columns: 1/4;
+    form div.detail {
+        display: block;
+        margin: 0 0 2.2rem 2%;
+        font-size: 1.2rem;
     }
-
-    .item4 {
-        grid-template-columns: 1/4;
-        grid-template-rows: 2;
-    }
-
-    .item5 .item6 {
-        grid-template-rows: 3;
-        grid-template-columns: 1/4;
-    }*/
 }
