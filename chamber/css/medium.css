@@ -17,10 +17,6 @@
     }
 
     form div.detail {
-        display: none;
-    }
-
-    form div.detail {
         display: block;
         margin: 0 12rem 0 6rem;
         font-size: 1.2rem;
