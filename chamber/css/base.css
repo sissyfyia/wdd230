@@ -51,6 +51,7 @@ nav button {
 
 nav {
     background-color: #605C4E;
+    border-radius: 10px;
 }
 
 nav ul {
@@ -155,15 +156,21 @@ section {
     display: grid;
 }
 
+form {
+    margin: auto;
+    max-width: 960px;
+}
 form fieldset {
-    margin: 2rem 0;
+    margin: auto;
     padding: 0.5rem 2%;
     border: 1px solid black;
     border-radius: 10px;
 }
 
 form legend {
-    color:#605C4E;
+    color: white;
+    background-color: #0A122A;
+    border-radius: 10px;
     margin: 0 1rem;
     padding: 0 0.5rem;
 }

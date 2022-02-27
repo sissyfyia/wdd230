@@ -35,28 +35,28 @@
                 <legend> Basic Information </legend>
                 <label class="top">First Name*<input type="text" name="fname" required></label>
                 <label class="top">Last Name*<input type="text" name="lname" required></label>
-                <label class="top">Title<input type="text" name="title" maxlength="7" [:word:]></label>
+                <label class="top">Title<input type="text" name="title" maxlength="7" pattern="[A-Za-z -]+$"></label>
                 <label class="top">Cell phone* <input type="tel" name="phone" placeholder="1234445556" required></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="youremail@email.com" required></label>
                 <label class="top">Business Name*<input type="text" name="business" required></label>
             </fieldset>
             <fieldset>
                 <legend>Membership Level </legend>
-                <label class="mid"><input type="radio" name="membership" value="nonprofit">NP Membership </label>
-                <div class="detail">Non-profit: No fee. Trainings, basic advertising package and early-bird event opportunities.</div>
-                <label class="mid"><input type="radio" name="membership" value="bronze">Bronze</label>
-                <div class="detail">Bronze: $100 yearly. Includes basic trainings, access to meet and greet, and basic advertising package. </div>
-                <label class="mid"><input type="radio" name="membership" value="silver">Silver </label>
-                <div class="detail">Silver: $500 yearly. Includes all trainings, meet and greet table, early-bird event opportunities and premium advertising package. </div>
-                <label class="mid"><input type="radio" name="membership" value="gold">Gold</label>
-                <div class="detail">Gold: $1,000 yearly. Includes full-access to all events and trainings, full advertising package, BBB gala, lobby plaque and local discount card. </div>
+                <label class="mid"><input type="radio" name="membership" value="nonprofit">NP Membership - No Fee</label>
+                <div class="detail">Includes all trainings, basic advertising package and early-bird event opportunities.</div>
+                <label class="mid"><input type="radio" name="membership" value="bronze">Bronze - $100</label>
+                <div class="detail">Includes basic trainings, access to meet and greet, and basic advertising package. </div>
+                <label class="mid"><input type="radio" name="membership" value="silver">Silver - $500</label>
+                <div class="detail">Includes all trainings, meet and greet table, early-bird event opportunities and premium advertising package. </div>
+                <label class="mid"><input type="radio" name="membership" value="gold">Gold - $1,000</label>
+                <div class="detail">Includes full-access to all events and trainings, full advertising package, BBB gala, lobby plaque and local discount card. </div>
             </fieldset>
             <fieldset>
                 <legend>Business Description</legend>
                 <label class="top"><textarea  name="description" rows="10" cols="40" placeholder="Begin typing here..."></textarea> </label>
             </fieldset>
             <input type="submit" value="Complete" class="submitBtn">
-            <input type= "hidden" name="dateTime" value="datetime">
+            <input type= "hidden" name="dateTime" value="dateTime">
     
         </form>
     </main>
