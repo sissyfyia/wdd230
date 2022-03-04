@@ -1,69 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');;
-body {
-  font-size: 16px;
-  font-family: "Smooch Sans", sans-serif;
+
+main section {
+    display: grid;
 }
 
-header,
-main,
-footer {
-  margin: 1rem;
-  position: relative;
+main .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+header, main, footer{
+    text-align: center;
+    margin: 1rem;
+    position: relative;
+    font-family: "Smooch Sans", sans-serif;
 }
 
 h1 {
-  color: #000;
-  border-bottom: 1px solid #eee;
-  text-shadow: 0 0 15px #999;
-  width: 60%;
+    color: #000;
+    font-family: "Smooch Sans";
 }
 
 h2 {
-  color: blue;
-  margin: 0;
+    text-decoration: underline;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
-h3 {
-  margin: 0;
-}
-
-h4 {
-  color: #333;
-  margin: 7px 0 5px 0;
-}
-
-p {
-  margin: 0;
-}
-
-main {
-  margin-left: 2rem;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
-
-section {
-  margin: 0.25rem;
-  padding: 0.35rem;
-  background-color: #eee;
-  border: 1px solid #bbb;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-section > p {
-  min-height: 60px;
+section.birth {
+    margin: 0;
+    padding: 2rem;
 }
 
 img {
-  width: auto;
-	max-width: 325px;
-  box-shadow: 0 0 30px #777;
-  height: 200px;
-  border: 1px solid #333;
+    width: auto;
+    max-width: 340px;
+    box-shadow: 0 0 30px rgb(129, 128, 128);
+    height: 330px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 3px;
 }
 
 footer {
