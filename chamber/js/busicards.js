@@ -12,10 +12,10 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);
     const bcards = jsonObject['bcards'];
-    bcards.forEach(displayCards);  // temporary checking for valid response and data parsing
+    bcards.forEach(displayBcards);  // temporary checking for valid response and data parsing
   });
   
-  function displayCards(bcards) {
+  function displayBcards(bcard) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
@@ -23,12 +23,12 @@ fetch(requestURL)
     let h4 = document.createElement('h4');
   
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.innerHTML = `$${bcards.name}`;
-    h4.innerHTML =`<span>${bcards.address} </span><br><span> ${bcards.website}</span>`;
+    h2.innerHTML = `${bcard.name}`;
+    h4.innerHTML =`<span>${bcard.address} </span><br><span> ${bcard.website}</span>`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    logo.setAttribute('src', bcards.imageurl);
-    logo.setAttribute('alt', `${bcards.name}`);//
+    logo.setAttribute('src', bcard.imageurl);
+    logo.setAttribute('alt', `${bcard.name}`);
     logo.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
@@ -37,5 +37,5 @@ fetch(requestURL)
     //bcards.appendChild(logo);//
   
     // Add/append the existing HTML div with the cards class with the section(card)
-    card.appendChild(busicards);
+    busicards.appendChild(card);
   }
