@@ -1,0 +1,87 @@
+{"bcards":
+    [
+    {
+        "name": "Sewing Something Special",
+        "address": "217 North 1st St, Manassa, CO",
+        "phone": "719-888-1141",
+        "website": "www.sewingsomethingspecial.com",
+        "imageurl":"................"
+    },
+    {
+        "name": "Manassa Market",
+        "address": "522 South Main St, Manassa, CO",
+        "phone": "719-888-2222",
+        "website": "www.ManassaMarket.com",
+        "imageurl":"................"
+    }, 
+    {
+        "name": "Ginger Snip",
+        "address": "501 North Main St, Manassa, CO",
+        "phone": "719-888-3333",
+        "website": "www.TheGingerSnip.com",
+        "imageurl":"................"
+    },
+    {
+        "name": "Larry's Garage",
+        "address": "721 South Smith St, Manassa, CO",
+        "phone": "719-888-2211",
+        "website": "www.LarrysGarage.com",
+        "imageurl":"................"
+    }, 
+    {
+        "name": "Standard Service",
+        "address": "500 South Main St, Manassa, CO",
+        "phone": "719-888-1122",
+        "website": "www.StandardService.com",
+        "imageurl":"................"
+    },
+    {
+        "name": "Gemfire Diamonds",
+        "address": "511 North Main St, Manassa, CO",
+        "phone": "719-888-2332",
+        "website": "www.GemfireDiamondsJewelry.com",
+        "imageurl":"................"
+    },
+    {
+        "name": "Val's Place",
+        "address": "480 North Main St, Manassa, CO",
+        "phone": "719-888-4422",
+        "website": "www.eatatVals.com",
+        "imageurl":"................"
+    },
+    {
+        "name": "AB Masonry LLC",
+        "address": "614 Berthelson St, Manassa, CO",
+        "phone": "719-888-4545",
+        "website": "www.ABMasonry.com",
+        "imageurl":"................"
+    },
+    {
+        "name": "Silver Fox Jewelry",
+        "address": "931 South St, Manassa, CO",
+        "phone": "719-888-6543",
+        "website": "www.SilverFoxJewelry.com",
+        "imageurl":"................"
+    },
+    {
+        "name": "Rimrock Ranch",
+        "address": "829 Smith St, Manassa, CO",
+        "phone": "719-888-7777",
+        "website": "www.RimrockFamilyRanch.org",
+        "imageurl":"................"
+    },
+    {
+        "name": "Tom Rogers Trucking",
+        "address": "219 South 2nd St, Manassa, CO",
+        "phone": "719-888-6336",
+        "website": "www.TomRogersTrucking.com",
+        "imageurl":"................"
+    },
+    {
+        "name": "Valley Construction",
+        "address": "141 Peterson St, Manassa, CO",
+        "phone": "719-888-9876",
+        "website": "www.ValleyConstruction.com",
+        "imageurl":"................"
+    }
+]}
