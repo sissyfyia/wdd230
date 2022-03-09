@@ -13,6 +13,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Slabo+27px&display=swap" rel="stylesheet">
 
+        <style>
+            main .busicards {
+            text-align: left;
+            display: column;
+        }
+        </style>
     </head>
     <body>
      <header>
@@ -22,8 +28,8 @@
      </header>
     <main>  
         <div class="viewit">
-            <button type="button"> List</button>
-            <button type="button"> Grid</button>
+            <button type="button" onclick="listView()"> List</button>
+            <button type="button" onclick="gridView()"> Grid</button>
         </div>          
        
         <div class="busicards"></div>
@@ -34,5 +40,6 @@
             <img src="images/manassa logo.png" alt="Manassa Logo">
         </picture>
     <script src="js/busicards.js"></script>
+    <script src="js/views.js"></script>
     </footer>
 </html>

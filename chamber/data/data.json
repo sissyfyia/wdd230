@@ -33,55 +33,55 @@
         "address": "500 South Main St, Manassa, CO",
         "phone": "719-888-1122",
         "website": "www.StandardService.com",
-        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/needle.png"
+        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/gasoline.png"
     },
     {
         "name": "Gemfire Diamonds",
         "address": "511 North Main St, Manassa, CO",
         "phone": "719-888-2332",
         "website": "www.GemfireDiamondsJewelry.com",
-        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/needle.png"
+        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/ring.png"
     },
     {
         "name": "Val's Place",
         "address": "480 North Main St, Manassa, CO",
         "phone": "719-888-4422",
         "website": "www.eatatVals.com",
-        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/needle.png"
+        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/service.png"
     },
     {
         "name": "AB Masonry LLC",
         "address": "614 Berthelson St, Manassa, CO",
         "phone": "719-888-4545",
         "website": "www.ABMasonry.com",
-        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/needle.png"
+        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/brick.png"
     },
     {
         "name": "Silver Fox Jewelry",
         "address": "931 South St, Manassa, CO",
         "phone": "719-888-6543",
         "website": "www.SilverFoxJewelry.com",
-        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/needle.png"
+        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/watch.png"
     },
     {
         "name": "Rimrock Ranch",
         "address": "829 Smith St, Manassa, CO",
         "phone": "719-888-7777",
         "website": "www.RimrockFamilyRanch.org",
-        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/needle.png"
+        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/cow.png"
     },
     {
         "name": "Tom Rogers Trucking",
         "address": "219 South 2nd St, Manassa, CO",
         "phone": "719-888-6336",
         "website": "www.TomRogersTrucking.com",
-        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/needle.png"
+        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/truck.png"
     },
     {
         "name": "Valley Construction",
         "address": "141 Peterson St, Manassa, CO",
         "phone": "719-888-9876",
         "website": "www.ValleyConstruction.com",
-        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/needle.png"
+        "imageurl":"https://sissyfyia.github.io/wdd230/chamber/images/mountain.png"
     }
 ]}

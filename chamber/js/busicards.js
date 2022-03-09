@@ -24,7 +24,7 @@ fetch(requestURL)
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.innerHTML = `${bcard.name}`;
-    h4.innerHTML =`<span>${bcard.address} </span><br><span> ${bcard.website}</span>`;
+    h4.innerHTML =`<span>${bcard.address} </span><br><span> ${bcard.phone} </span><br><span> ${bcard.website}</span>`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     logo.setAttribute('src', bcard.imageurl);
@@ -32,9 +32,10 @@ fetch(requestURL)
     logo.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
+    card.appendChild(logo);
     card.appendChild(h2);
     card.appendChild(h4);
-    //bcards.appendChild(logo);//
+    
   
     // Add/append the existing HTML div with the cards class with the section(card)
     busicards.appendChild(card);
