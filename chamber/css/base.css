@@ -223,3 +223,34 @@ form div.detail {
     display: none;
 }
 
+main section {
+    display: grid;
+}
+
+main .busicards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+div.busicards section {
+    background-color: white;
+    box-shadow: 0 0 30px rgb(129, 128, 128);
+}
+
+div.busicards h2 {
+    font-family: "Slabo 27", sans-serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+div.busicards h4 {
+    font-family: "Slabo 27", sans-serif;
+    font-size: 0.8rem;
+    background-color: transparent;
+}
+
+div.busicards img {
+    align-items: left;
+}
