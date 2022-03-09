@@ -227,6 +227,10 @@ main section {
     display: grid;
 }
 
+main .viewit {
+    padding: 0.8rem;
+}
+
 main .busicards {
     text-align: center;
     display: grid;
@@ -253,4 +257,9 @@ div.busicards h4 {
 
 div.busicards img {
     align-items: left;
+}
+
+div.viewBtns {
+    background-color: #C7C7A6;
+    border-radius: solid 2px black;
 }
