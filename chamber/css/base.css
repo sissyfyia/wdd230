@@ -261,7 +261,7 @@ div.busicards img {
     margin: auto;
     margin-top: 1rem;
     border: none;
-    max-width: 100px;
+    width: 100px;
 }
 
 div.viewBtns {
