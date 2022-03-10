@@ -13,12 +13,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Slabo+27px&display=swap" rel="stylesheet">
 
-        <style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <!--<style>
             main .busicards {
             text-align: left;
             display: column;
-        }
-        </style>
+            }
+        </style>-->
     </head>
     <body>
      <header>
@@ -28,11 +29,18 @@
      </header>
     <main>  
         <div class="viewit">
-            <button type="button" listView()> List</button>
-            <button type="button" gridView()> Grid</button>
+            <div class="icons">
+                <button class="vBtn" onclick="listV()">List</button> 
+                <button class="vBtn" onclick="gridV"()>Grid</button>
+            </div>
         </div>          
-       
-        <div class="busicards"></div>
+       <div class="row">
+           <div id="column">
+             <div class="busicards"></div>  
+           </div>
+       </div>
+
+        
     </main>   
     </body>
     <footer>
@@ -40,6 +48,13 @@
             <img src="images/manassa logo.png" alt="Manassa Logo">
         </picture>
     <script src="js/busicards.js"></script>
-    <script src="js/views.js"></script>
+    <script>
+        function listV() {
+            document.getElementById('column').style.columns= '1fr';
+        }
+        function gridV() {
+            document.getElementsByClassName('row').style.columns= '1fr 1fr 1fr';
+        }
+    </script>
     </footer>
 </html>
