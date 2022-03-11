@@ -231,7 +231,7 @@ main .viewit {
     padding: 0.8rem;
 }
 
-/*main .busicards {
+main .busicards {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -255,7 +255,7 @@ div.busicards h4 {
     font-size: 0.8rem;
     background-color: transparent;
     margin-top: 0;
-}*/
+}
 
 div.busicards img {
     margin: auto;
