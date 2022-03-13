@@ -13,6 +13,18 @@ fetch(requestURL)
     console.table(jsonObject);
     const bcards = jsonObject['bcards'];
     bcards.forEach(displayBcards);  // temporary checking for valid response and data parsing
+    
+    const gridBtn = document.querySelector(".gridBtn");
+    const listBtn = document.querySelector(".listBtn");
+
+    gridBtn.addEventListener("click", () => {
+       bcards.innerHTML = ''; 
+       bcards.forEach(displayBcards);
+  });
+
+    listBtn.addEventListener("click", () => {
+       bcards.innerHTML = '';
+       bcards.forEach(displayLcards);
   });
   
   function displayBcards(bcard) {
@@ -40,3 +52,15 @@ fetch(requestURL)
     // Add/append the existing HTML div with the cards class with the section(card)
     busicards.appendChild(card);
   }
+
+  function displayLcards(bcard) {
+    let card = document.createElement('section');
+    let line= document.createElement('p');
+
+    line.innerHTML = `${bcard.name}, ${bcard.phone}, ${bcard.website}`;
+
+    card.appendChild(line);
+
+    //line.appendChild('p1');
+    };
+})
