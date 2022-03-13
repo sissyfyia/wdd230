@@ -13,17 +13,18 @@ fetch(requestURL)
     console.table(jsonObject);
     const bcards = jsonObject['bcards'];
     bcards.forEach(displayBcards);  // temporary checking for valid response and data parsing
-    
+  })
+
     const gridBtn = document.querySelector(".gridBtn");
     const listBtn = document.querySelector(".listBtn");
 
     gridBtn.addEventListener("click", () => {
-       bcards.innerHTML = ''; 
+       busicards.innerHTML = ''; 
        bcards.forEach(displayBcards);
   });
 
     listBtn.addEventListener("click", () => {
-       bcards.innerHTML = '';
+       busicards.innerHTML = '';
        bcards.forEach(displayLcards);
   });
   
@@ -54,13 +55,21 @@ fetch(requestURL)
   }
 
   function displayLcards(bcard) {
-    let card = document.createElement('section');
+    let list = document.createElement('section');
     let line= document.createElement('p');
+    //let picture = document.createElement('img');
 
+    //change properties of element
     line.innerHTML = `${bcard.name}, ${bcard.phone}, ${bcard.website}`;
 
-    card.appendChild(line);
+    //make the image disappear from page
+   // picture.setAttribute('src', bcard.imageurl);
+    //picture.setAttribute('alt', `${bcard.name}`);
 
-    //line.appendChild('p1');
+    //add the paragraph to section
+    //list.appendChild(picture);
+    list.appendChild(line);
+
+    //add all created elements to the HTML div
+    busicards.appendChild(list);
     };
-})
