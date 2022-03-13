@@ -19,7 +19,7 @@ fetch(requestURL)
     const listBtn = document.querySelector(".listBtn");
 
     gridBtn.addEventListener("click", () => {
-       busicards.innerHTML = ''; 
+       busicards.innerHTML = bcards; 
        bcards.forEach(displayBcards);
   });
 
@@ -48,28 +48,21 @@ fetch(requestURL)
     card.appendChild(logo);
     card.appendChild(h2);
     card.appendChild(h4);
-    
   
     // Add/append the existing HTML div with the cards class with the section(card)
     busicards.appendChild(card);
   }
 
   function displayLcards(bcard) {
-    let list = document.createElement('section');
+    let card = document.createElement('section');
     let line= document.createElement('p');
-    //let picture = document.createElement('img');
 
     //change properties of element
     line.innerHTML = `${bcard.name}, ${bcard.phone}, ${bcard.website}`;
 
-    //make the image disappear from page
-   // picture.setAttribute('src', bcard.imageurl);
-    //picture.setAttribute('alt', `${bcard.name}`);
-
     //add the paragraph to section
-    //list.appendChild(picture);
-    list.appendChild(line);
+    card.appendChild(line);
 
     //add all created elements to the HTML div
-    busicards.appendChild(list);
+    busicards.appendChild(card);
     };
