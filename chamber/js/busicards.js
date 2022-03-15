@@ -19,7 +19,7 @@ fetch(requestURL)
     const listBtn = document.querySelector(".listBtn");
 
     gridBtn.addEventListener("click", () => {
-       busicards.innerHTML = bcards; 
+       busicards.innerHTML = ''; 
        bcards.forEach(displayBcards);
   });
 
