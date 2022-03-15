@@ -264,25 +264,29 @@ div.busicards img {
     width: 100px;
 }
 
-div.viewBtns {
+div .icons {
     background-color: #C7C7A6;
-    border-radius: solid 2px black;
+    border: solid 2px #0A122A;
+    border-radius: 15px;
 }
 
-.icons {
+/*.icons {
     background-color: #C7C7A6;
     margin: 30px auto;
-}
+}*/
 
-.vBtn {
-    margin: 5px 10px;
-    font-size: 25px;
+.listBtn, .gridBtn {
+    min-width: 100px;
+    margin: 15px 10px;
+    font-size: 20px;
     cursor: pointer;
-    color: white;
+    color: black;
+    border-radius: 10px;
 }
 
-.vBtn:hover {
-    color: black;
+.listBtn, .gridBtn:hover {
+    background-color: #0A122A;
+    color: white;
 }
 
 .busicards section p {
@@ -290,7 +294,7 @@ div.viewBtns {
     grid-template-columns: 1fr;
     margin: 0;
     font-size: 20px;
-
+    min-width: 400px;
 }
 /*
 .row {
