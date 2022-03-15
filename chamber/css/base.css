@@ -285,6 +285,14 @@ div.viewBtns {
     color: black;
 }
 
+.busicards section p {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    font-size: 20px;
+
+}
+/*
 .row {
     display: grid;
     grid-template-columns: 1fr;
@@ -293,4 +301,4 @@ div.viewBtns {
 #column {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+}*/

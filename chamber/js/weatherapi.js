@@ -1,4 +1,5 @@
-const apiUrl = 'https://api.openweathermap.org/data/2.5/forecast?zip=81141&appid=66df575ecb5b3b5511f996e4aaa99495'
+const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=37&lon=-105&appid=66df575ecb5b3b5511f996e4aaa99495';
+const weather = document.querySelector('.weather');
 
 fetch(apiURL)
   .then((response) => response.json())

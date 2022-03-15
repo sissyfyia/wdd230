@@ -1,6 +1,7 @@
 
 const requestURL ='https://sissyfyia.github.io/wdd230/chamber/data/data.json';
 const busicards = document.querySelector('.busicards');
+let thecards = '';
 
 fetch(requestURL)
   .then(function (response){
@@ -12,6 +13,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);
     const bcards = jsonObject['bcards'];
+    thecards = bcards;
     bcards.forEach(displayBcards);  // temporary checking for valid response and data parsing
   })
 
@@ -20,12 +22,12 @@ fetch(requestURL)
 
     gridBtn.addEventListener("click", () => {
        busicards.innerHTML = ''; 
-       bcards.forEach(displayBcards);
+       thecards.forEach(displayBcards);
   });
 
     listBtn.addEventListener("click", () => {
        busicards.innerHTML = '';
-       bcards.forEach(displayLcards);
+       thecards.forEach(displayLcards);
   });
   
   function displayBcards(bcard) {
@@ -57,7 +59,7 @@ fetch(requestURL)
     let card = document.createElement('section');
     let line= document.createElement('p');
 
-    //change properties of element
+    //change properties of element to show line not card
     line.innerHTML = `${bcard.name}, ${bcard.phone}, ${bcard.website}`;
 
     //add the paragraph to section
