@@ -4,6 +4,7 @@ let windChill = document.querySelector("#windChill");
 
 console.log(temperature);
 console.log(speed);
+
 function getChill(temperature, speed) {
 
     let chill= 35.74 + 0.6215 * temperature - 35.75 * (speed ** 0.16) + 0.46275 * temperature * (speed ** 0.16);

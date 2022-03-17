@@ -33,8 +33,8 @@ function getChill(temperature, speed) {
     chill = Math.floor(chill);
     console.log(chill);
 
-    return chill;
-    
+    //return chill;
+  
 }
 
 if (temperature <= 50 && speed >= 3) {
