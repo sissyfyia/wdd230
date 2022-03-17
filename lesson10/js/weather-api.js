@@ -19,11 +19,10 @@ fetch(apiURL)
     capimgalt += imgalt.charAt(i).toUpperCase();
   } else {
   }
-  }
   });
 
 
-const iconsrc= 
+const iconsrc= '';
 const desc = jsObject.weather[0].description;
 
     document.querySelector('#icon-src').textContent = iconsrc;
