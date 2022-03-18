@@ -16,11 +16,12 @@
     <script defer type="module" src="js/weatherapi.js"></script>
   </head>
      <header>
-         <h1>Manassa Chamber</h1>
-         <picture>
-
-         <img src="images/manassa logo small.png" alt="small Logo">
-         </picture>
+       <div class="logocontainer">
+      <picture class="logotop">
+        <img src="images/manassa logo small.png" alt="M Chamber logo">
+      </picture>
+      <h1>Manassa Chamber</h1>
+         </div>
          <nav>
     <button id="hamBtn"><span> &#9776 </span><span> X </span></button>
                 <ul id="navBar">
@@ -31,12 +32,16 @@
                  <li><a href="#">Board Members</a></li>
                 </ul>
          </nav>
-         <div class= "Date">
-           <span id= "CurrentDate"> February 13, 2022</span>
+         <div id="current_date">
+          <script>
+          document.getElementById("current_date").innerHTML = Date();
+          </script>
          </div>
+
          <section class= "banner">
            <a href="js/banner.js">  Come join us for the chamber meet and greet Wednesday at 7:00 p.m!</a>
          </section>
+
      </header>
 
      <body>
@@ -55,10 +60,16 @@
             </div>
             <div class = "item2">
               <h2>News</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ut voluptatem illo esse.
+                 A placeat, eaque, quis impedit officiis, eveniet rerum expedita fuga similique hic quasi!
+                 Recusandae expedita at reiciendis.</p>
             </div> 
             <div class= "item3">
               <h2>Events</h2>
               <a href="discover.html">Discover link</a>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ut voluptatem illo esse.
+                A placeat, eaque, quis impedit officiis, eveniet rerum expedita fuga similique hic quasi!
+                Recusandae expedita at reiciendis.</p>
             </div>
             <div class= "item4">
               <section class="weather">
@@ -95,12 +106,11 @@
         <div>
          <p>&copy; <span id="copyright-year"></span>Alisha Smith  WDD230 Project</p>     
         <div id="lastModified">Last Modified: </div>
-        <picture>
+        <picture class="logobottom">
             <img src="images/manassa logo.png" alt="Manassa Logo">
         </picture>
      </footer>
      <script src="js/menu.js"></script>
-     <script src="js/date.js"></script>
      <script src="js/banner.js"> </script>
 
  </html>

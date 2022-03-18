@@ -1,9 +1,25 @@
 header {
     display: grid;
     background-color:#0A122A ;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #C7C7A6;
     margin: 25px;
+}
+
+header .logotop img {
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    border: none;
+}
+
+.logocontainer {
+    display: flex;
+}
+
+header h1 {
+    margin: auto;    
 }
 
 section.banner {
@@ -14,8 +30,8 @@ section.banner a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px;
-    border-top: solid 2px #C7C7A6;
+    padding: 10px;
+    border-top: solid 1px #C7C7A6;
 }
 /*
 header div span {
@@ -34,12 +50,22 @@ body {
 h1 {
     margin: auto;
     font-family: 'Lily Script One', cursive;
+    text-shadow: 2px 3px #3d4c7c;
+}
+h2 {
+    text-shadow: 2px 1px rgb(139, 138, 137);
 }
 
 h2, h3 {
     background-color: #605C4E;
     font-family: 'Slabo 27', serif;
     padding: 1em;
+    margin: auto;
+}
+
+a {
+    font-size:1.4rem;
+    line-height:1.5;
 }
 
 nav button {
@@ -83,9 +109,9 @@ nav ul.open {display:block;}
 
 main {
     font-family: 'Slabo 27', serif;
-    font-size: 20px;
+    font-size: 18px;
     margin: 20px;
-    text-align: left;    
+    text-align: left;   
 }
 
 .container {
@@ -106,6 +132,10 @@ footer {
     border-radius: 15px;
 }
 
+.logobottom img {
+    max-width: 100px;
+}
+
 #lastModified {
 	text-align: center;
 	font-size: smaller;
@@ -114,14 +144,14 @@ footer {
 img {
     border: 3px solid #605C4E;
     margin: 10px;
-    width: 250px;
+    width: 200px;
 }
 
 .discover picture img {
-    float: right;
+    /*float: right;*/
     border: 3px solid #605C4E;
     margin: 15px;
-    width: 300px;
+    /*width: 200px;*/
 }
 
 .discover picture img:hover {
@@ -138,6 +168,7 @@ section {
 .item1, .item2, .item3, .item5, .item6 {
     background-color: #C7C7A6;
     border: black solid 2px;
+    border-radius: 5px;
 }
 
 .item4 {
