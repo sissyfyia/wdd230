@@ -1,19 +1,21 @@
 function lastVisit() {
 
-let today = Date.now();
+let today = new Date();
 let millisecondsToDays = 86400000;
 let prior = localStorage.getItem('lastvisit');
-let obj = Date.now(prior);
+let obj = new Date(prior);
 
 if (!prior) {
-    visit = ((today - obj) / millisecondsToDays).toFixed(0);
-}else {
-    visit = today + " This is your first visit. Welcome!"
-}
+    localStorage.setItem('lastvisit', today);
+    let visit = "This is your first visit. Welcome!"
+    document.querySelector('.lastV').innerHTML = visit;
 
-document.getElementById("lastVisit").innerHTML += visit + " days ago. Welcome!";
+} else {
+    let visit = ((today - obj) / millisecondsToDays).toFixed(0) + 'days ago.';
+    document.querySelector('lastV').innerHTML = visit;
+}   
+
 localStorage.setItem("lastVisit", today);
 
-document.querySelector(".lastVisit");
-
 }
+lastVisit();

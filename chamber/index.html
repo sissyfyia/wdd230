@@ -36,9 +36,11 @@
           <script>
           document.getElementById("current_date").innerHTML = Date();
           </script>
-         </div class= "banner">
-           <a href="js/banner.js">  Come join us for the chamber meet and greet Wednesday at 7:00 p.m!</a>
-         </div>
+         <div class= "banner">
+           <p>
+          Come join us for the chamber meet and greet Wednesday at 7:00 p.m!
+           </p> 
+        </div>
 
      </header>
 
@@ -60,7 +62,11 @@
               <h2>News</h2>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ut voluptatem illo esse.
                  A placeat, eaque, quis impedit officiis, eveniet rerum expedita fuga similique hic quasi!
-                 Recusandae expedita at reiciendis.</p>
+                 Recusandae expedita at reiciendis. placeat, eaque, quis impedit officiis, eveniet rerum expedita fuga similique hic quasi!
+                 Recusandae expedita at reiciendis. <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et molestias dolore iste voluptatum alias 
+                incidunt architecto iusto quae eaque quaerat quidem quo necessitatibus nostrum asperiores mollitia, 
+                officia suscipit? Aspernatur, asperiores.</p>
             </div> 
             <div class= "item3">
               <h2>Events</h2>
@@ -89,23 +95,27 @@
             </div>
             <div class= "item6">
               <h2>Company Spotlights</h2>
-              <a href="directory.html"> Businesses</a>
-            </div>
+              <a href="directory.html"> Our Members</a> <br>
+              <div class="spotlights">
+              <a id="sssbusiness" href="https://sewing-something-special.business.site/"> Sewing Something Special</a> <br>
+              <a id="gasbusiness" href="https://www.standardservicellc.com/">Standard Service LLC</a>
+            </div></div>
         </div>
 
      </main>
     </body>
      <footer>
-         <div>
+         <div class="address">
          <p>Manassa Chamber
          401 Main St., Manassa, CO 81141</p>
         </div>
-        <div>
-         <p>&copy; <span id="copyright-year"></span>Alisha Smith  WDD230 Project
+        <div class="myinfo">
+         <p>&copy; 2022 &bull; Alisha Smith &bull; Colorado
           <span id="2lm"></span></p>
         </div>
-        <div>
-          <span id="lastModified">Last Modified:</span><span id="lastv">Number of Day Last Visited: </span>
+        <div class="modvis">
+          <span id="lastModified">Last Modified:</span>
+          <span class="lastV">Number of Day Last Visited: </span>
       </div>
         <picture class="logobottom">
             <img src="images/manassa logo.png" alt="Manassa Logo">
@@ -115,5 +125,6 @@
      </footer>
      <script src="js/menu.js"></script>
      <script src="js/banner.js"> </script>
+     <script src="js/dayrecord.js"></script>
 
  </html>
