@@ -15,7 +15,7 @@ header .logotop img {
 }
 
 .logocontainer {
-    display: flex;
+    display: grid;
 }
 
 header h1 {
@@ -60,6 +60,13 @@ h2, h3 {
     padding: 0.8em;
     margin: auto;
     text-align: center;
+}
+
+h5 {
+    background-color: #605C4E;
+    padding: auto;
+    text-align: center;
+    margin-top: 0;
 }
 
 a {
@@ -164,9 +171,9 @@ img {
 
 .firstC {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr
-    grid-gap: 10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
 }
 
 .item1 {
@@ -175,21 +182,24 @@ img {
     height: auto;
 }
 
-.item4, .weather {
+.item4 {
     background-color: #0A122A;
     color: rgb(177, 176, 176);
     font-size: 20px;
-    max-height: 400px;
+    /*max-width: 200px;*/
+    margin: 0;
+    text-align: center;
 }
 
 .item4 figure img {
-    max-width: 90px;
-    margin-left: -40px;
+    max-width: 50px;
+    margin-left: 4px;
+    border: none;
 }
 
 .item4 figcaption {
     text-align: center;
-    margin-top: -80px;
+    margin-top: -8px;
     margin-bottom: 0px;
 }
 
@@ -209,6 +219,7 @@ section {
     border: black solid 2px;
     border-radius: 5px;    
     max-height: 400px;
+    overflow: visible;
 }
 
 .item2 {

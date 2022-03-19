@@ -16,14 +16,13 @@ fetch(requestURL)
 
     function displayScards(spots){
      let card = document.createElement('section');
-     let h2 = document.createElement('h2');
      let h4 = document.createElement('h4');
+     let hp = document.createElement('p');
 
-     h2.innerHTML = `${spots.name}`;
-     h4.innerHTML = `<span>${spots.address}</span><span> ${spots.phone}</span>`;
+     h4.innerHTML = `${spots.name}`;
+     p.innerHTML = `<span>${spots.address}</span><span> ${spots.phone}</span>`;
 
-     card.appendChild(h2);
      card.appendChild(h4);
+     card.appendChild(p);
 
-     spotlights.appendChild(card);
     }

@@ -7,7 +7,7 @@ let obj = new Date(prior);
 
 if (!prior) {
     localStorage.setItem('lastvisit', today);
-    let visit = "This is your first visit. Welcome!"
+    let visit = "This is your first visit. Welcome!";
     document.querySelector('.lastV').innerHTML = visit;
 
 } else {
