@@ -162,42 +162,61 @@ img {
     box-shadow: 0 0 50px #333;
 }
 
-section {
-    margin: 2px;
-    /*background-color: #C7C7A6;
-    line-height: 1rem;*/
-    border-radius: 5px;
+.firstC {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr
+    grid-gap: 10%;
 }
 
-.item1, .item2, .item3, .item5, .item6 {
-    background-color: #C7C7A6;
-    border: black solid 2px;
-    border-radius: 5px;
+.item1 {
+    background-color: none;
+    max-width: 100%;
+    height: auto;
 }
 
-.item4 {
+.item4, .weather {
     background-color: #0A122A;
     color: rgb(177, 176, 176);
     font-size: 20px;
-    margin: auto;
+    max-height: 400px;
 }
 
 .item4 figure img {
     max-width: 90px;
-    margin: auto;
-    position: absolute;
+    margin-left: -40px;
 }
 
 .item4 figcaption {
     text-align: center;
+    margin-top: -80px;
+    margin-bottom: 0px;
 }
 
 .item4 p {
-    margin: auto;
+    margin-bottom: -10px;
+    margin-top: 0px;
+    text-align: center;
 }
 
-.weatherSpot {
-    padding: 4px;
+section {
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.item2, .item3, .item5, .item6 {
+    background-color: #C7C7A6;
+    border: black solid 2px;
+    border-radius: 5px;    
+    max-height: 400px;
+}
+
+.item2 {
+    overflow: scroll;
+}
+
+.item6 {
+    overflow: scroll;
 }
 
 .discover {
@@ -280,7 +299,7 @@ form div.detail {
     display: none;
 }
 
-.item6 a {
+/*.item6 a {
     font-size: 22px;
 }
 .spotlights #sssbusiness, #gasbusiness{
@@ -293,7 +312,7 @@ form div.detail {
 .item6 a:hover{
     background-color: black;
     color: white;
-}
+}*/
 
 main section {
     display: grid;
@@ -361,10 +380,4 @@ div .icons {
     color: white;
 }
 
-.busicards section p {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0;
-    font-size: 20px;
-    min-width: 400px;
-}
+

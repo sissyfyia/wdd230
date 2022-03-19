@@ -10,12 +10,12 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
-    const scards = jsonObject['scards'];
-    scards.forEach(displayBcards('membership:gold'));  // temporary checking for valid response and data parsing
+    const bcards = jsonObject['bcards'];
+    bcards.forEach(displayScards);  // temporary checking for valid response and data parsing
   }) 
 
     function displayScards(spots){
-     let card = document.creatElement('section');
+     let card = document.createElement('section');
      let h2 = document.createElement('h2');
      let h4 = document.createElement('h4');
 

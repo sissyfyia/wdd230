@@ -56,15 +56,15 @@ fetch(requestURL)
   }
 
   function displayLcards(bcard) {
-    let card = document.createElement('section');
+    let lcard = document.createElement('div');
     let line= document.createElement('p');
 
     //change properties of element to show line not card
-    line.innerHTML = `${bcard.name}, ${bcard.phone}, ${bcard.website}`;
+    line.innerHTML = `<span>${bcard.name}, ${bcard.phone}, ${bcard.website}</span>`;
 
-    //add the paragraph to section
-    card.appendChild(line);
+    //add 
+    lcard.appendChild(line);
 
     //add all created elements to the HTML div
-    busicards.appendChild(card);
+    busicards.appendChild(lcard);
     };
