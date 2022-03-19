@@ -132,6 +132,7 @@ main .container p {
     font-size: 18px;
     font-family: 'Slabo 27', serif;
 }
+
 footer {
     display: grid;
     background-color: #0A122A;
