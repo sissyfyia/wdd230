@@ -6,15 +6,16 @@ fetch(requestURL)
         if(!response.ok){
     } else {
         return response.json();
-    }  
+    }
      })
+
      .then(function(jsonObject){
          console.table(jsonObject);
          const scards = jsonObject['scards'];
          scards.forEach(displayScards);
      })
 
-    function displayScards(spots);
+    function displayScards(spots){
      let card = document.creatElement('section');
      let h2 = document.createElement('h2');
      let h4 = document.createElement('h4');
@@ -26,3 +27,4 @@ fetch(requestURL)
      card.appendChild(h4);
 
      spotlights.appendChild(card);
+    }
