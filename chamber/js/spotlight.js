@@ -2,18 +2,17 @@ const requestURL ='https://sissyfyia.github.io/wdd230/chamber/data/data.json';
 const spotlights = document.querySelector('.spotlights');
 
 fetch(requestURL)
-    .then(function(response){
-        if(!response.ok){
+  .then(function (response){
+    if (!response.ok) {
     } else {
-        return response.json();
+      return response.json();
     }
-     })
-
-     .then(function(jsonObject){
-         console.table(jsonObject);
-         const scards = jsonObject['scards'];
-         scards.forEach(displayScards);
-     })
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);
+    const scards = jsonObject['scards'];
+    scards.forEach(displayBcards('membership:gold'));  // temporary checking for valid response and data parsing
+  }) 
 
     function displayScards(spots){
      let card = document.creatElement('section');
@@ -21,7 +20,7 @@ fetch(requestURL)
      let h4 = document.createElement('h4');
 
      h2.innerHTML = `${spots.name}`;
-     h4.innerHTML = `${spots.address}, ${spots.phone}`;
+     h4.innerHTML = `<span>${spots.address}</span><span> ${spots.phone}</span>`;
 
      card.appendChild(h2);
      card.appendChild(h4);
