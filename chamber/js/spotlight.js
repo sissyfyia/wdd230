@@ -8,4 +8,21 @@ fetch(requestURL)
         return response.json();
     }  
      })
-     .then(function(JsonObject))
+     .then(function(jsonObject){
+         console.table(jsonObject);
+         const scards = jsonObject['scards'];
+         scards.forEach(displayScards);
+     })
+
+    function displayScards(spots);
+     let card = document.creatElement('section');
+     let h2 = document.createElement('h2');
+     let h4 = document.createElement('h4');
+
+     h2.innerHTML = `${spots.name}`;
+     h4.innerHTML = `${spots.address}, ${spots.phone}`;
+
+     card.appendChild(h2);
+     card.appendChild(h4);
+
+     spotlights.appendChild(card);
