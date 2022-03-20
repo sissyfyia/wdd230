@@ -11,20 +11,25 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);
     const bcards = jsonObject['bcards'];
-    bcards.forEach(displayScards);  // temporary checking for valid response and data parsing
-  }) 
+    const goldcards = bcards.filter(x => (x.membership === 'Gold'));
+    bcards.forEach(displayScards);
+  });
 
-    function displayScards(spots){
-     let card = document.createElement('section');
-     let h4 = document.createElement('h4');
-     let p = document.createElement('p');
 
-     h4.innerHTML = `${spots.name}`;
-     p.innerHTML = `<span>${spots.address}</span><span> ${spots.phone}</span>`;
-
-     card.appendChild(h4);
-     card.appendChild(p);
-
-     spotlights.appendChild('card');
-
-    };
+  function displayScards(bcard) {
+    // Create elements to add to the document
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let h4 = document.createElement('h4');
+  
+    // Change the textContent property of the h2 element to contain the prophet's full name
+    h2.innerHTML = `${bcard.name}`;
+    h4.innerHTML =`<span>${bcard.address} </span><br><span> ${bcard.phone} </span><br><span> ${bcard.website}</span>`;
+  
+    // Add/append the section(card) with the h2 element
+    card.appendChild(h2);
+    card.appendChild(h4);
+  
+    // Add/append the existing HTML div with the cards class with the section(card)
+    spotlights.appendChild(card);
+  };
