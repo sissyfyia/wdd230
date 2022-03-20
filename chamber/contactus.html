@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Slabo+27px&display=swap" rel="stylesheet">
 
     <script src="js/menu.js"></script>
+    <script src="js/dayrecord.js"></script>
+    <script src="js/lastmod.js"></script>
 
 </head>
 <body>
@@ -26,25 +28,25 @@
         </div>
         <nav>
             <button id="hamBtn"><span> &#9776 </span><span> X </span></button>
-              <ul id="navBar">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../chamber/contactus.html">Contact Us</a> </li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Calendar</a></li>
-                <li><a href="#">Board Members</a></li>
-              </ul>
-        </nav>
+                  <ul id="navBar">
+                   <li><a href="../chamber/index.html">Home</a></li>
+                   <li><a href="../chamber/contactus.html">Contact Us</a> </li>
+                   <li><a href="../chamber/manassatable.html">About</a></li>
+                   <li><a href="../chamber/calendar.html">Calendar</a></li>
+                   <li><a href="../chamber/board.html">Board Members</a></li>
+                  </ul>
+           </nav>
     </header>
     <main>
-        <div>
+        <div class="startup">
             <h1>Contact Us</h1>
             <p>401 Main Street <br>
             Manassa, CO 81141</p>
             <p>email: staff@manassachamber.com</p>
         </div>
-        <div>
+        <div class="help">
             <picture>
-                <img src="" alt="chamber door">
+                <img src="images/helpDesk.jpg" alt="help desk">
             </picture>
         </div>
 
@@ -67,11 +69,11 @@
                     <label class="top">Last Name*<input type="text" name="lname" required></label>
                     <label class="top">Cell phone* <input type="tel" name="phone" placeholder="888-444-5556" required></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="youremail@email.com" required></label>
-                    <label class="top">Inquiries:<textarea  name="questions" rows="10" cols="40" placeholder="Write your questions here...">
+                    <label class="top">Inquiries:<input type="textarea"  name="questions" rows="10" cols="80" placeholder="Write your questions here...">
                 </fieldset>
                 </form>
 
-                <input type="submit" value="Complete" class="submitBtn">
+                <input type="submit" value="Send" class="submitBtn">
                 <input type= "hidden" name="dateTime" value="dateTime">
     
         </div>

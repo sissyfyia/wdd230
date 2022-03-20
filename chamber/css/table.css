@@ -1,12 +1,12 @@
 :root {
-	--back: rgb(165, 69, 141);
-    --back2: rgba(252, 145, 252, 0.877);
+	--back: rgb(54, 49, 95);
+    --back2: rgba(109, 146, 194, 0.877);
     --foredark: rgb(46, 13, 18);
 	--forelight: hsla(0,0%,100%,1);
 	--border: rgb(34, 6, 15);
 	--borderlight: hsl(0,0%,33%);
 	--shadow: rgb(129, 114, 127);
-	--zebra: rgb(247, 217, 243);
+	--zebra: rgb(211, 224, 241);
 }
 
 table {
