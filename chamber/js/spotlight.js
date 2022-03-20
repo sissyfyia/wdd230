@@ -17,7 +17,7 @@ fetch(requestURL)
     function displayScards(spots){
      let card = document.createElement('section');
      let h4 = document.createElement('h4');
-     let hp = document.createElement('p');
+     let p = document.createElement('p');
 
      h4.innerHTML = `${spots.name}`;
      p.innerHTML = `<span>${spots.address}</span><span> ${spots.phone}</span>`;
@@ -25,4 +25,6 @@ fetch(requestURL)
      card.appendChild(h4);
      card.appendChild(p);
 
-    }
+     spotlights.appendChild('card');
+
+    };

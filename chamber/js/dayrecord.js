@@ -11,11 +11,12 @@ if (!prior) {
     document.querySelector('.lastV').innerHTML = visit;
 
 } else {
-    let visit = ((today - obj) / millisecondsToDays).toFixed(0) + 'days ago.';
-    document.querySelector('lastV').innerHTML = visit;
+    let visit = ((today - obj) / millisecondsToDays).toFixed(0);
+    document.querySelector('.lastV').innerHTML = visit;
 }   
 
 localStorage.setItem("lastVisit", today);
+
 
 }
 lastVisit();

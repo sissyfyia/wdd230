@@ -63,7 +63,6 @@ h2, h3 {
 }
 
 h5 {
-    background-color: #605C4E;
     padding: auto;
     text-align: center;
     margin-top: 0;
@@ -192,6 +191,9 @@ img {
     text-align: center;
 }
 
+.item4 h5 {
+    background-color: #605C4E;
+}
 .item4 figure img {
     max-width: 50px;
     margin-left: 4px;
@@ -225,6 +227,11 @@ section {
 
 .item2 {
     overflow: scroll;
+}
+
+.item2 h5 {
+    background-color: none;
+    border-bottom: 1px solid #0A122A
 }
 
 .item6 {
