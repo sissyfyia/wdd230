@@ -11,8 +11,8 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);
     const bcards = jsonObject['bcards'];
-    const goldcards = bcards.filter(x => (x.membership === 'Gold'));
-    bcards.forEach(displayScards);
+    const goldcards = bcards.filter(jsonObject => (jsonObject.membership === 'Gold'));
+    goldcards.forEach(displayScards);
   });
 
 
@@ -32,4 +32,4 @@ fetch(requestURL)
   
     // Add/append the existing HTML div with the cards class with the section(card)
     spotlights.appendChild(card);
-  };
+  }
