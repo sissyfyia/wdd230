@@ -1,0 +1,65 @@
+/*
+Colors 
+Color 1: #CECDC8;
+Color 2: #536588;
+Color 3: #45484D;
+Color 4: #959390;
+Color 5: #001C6F;
+*/
+
+header {
+    background-color: #536588;
+    color: #cecdc8;
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logotop img {
+    max-width: 100px;
+}
+
+main {
+    background-color: #959390;
+    color: #45484D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    background-color: #001C6F;
+    color: #cecdc8;
+    border-radius: 5px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.templeview img {
+    max-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main .nextstop {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main .nextstop img {
+    border-radius: 198px;
+    max-width: 100%;
+}
+
+h3 {
+    background-color: #536588;
+    color: #cecdc8;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+footer {
+    background-color: #536588;
+    color: #cecdc8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-decoration: underline #001C6F;
+    font-family: 'Shadows Into Light', cursive;
+}
