@@ -88,6 +88,10 @@ main .nextstop {
     grid-template-columns: 1fr;
 }
 
+main .nextstop a:hover {
+    opacity: 50%;
+}
+
 main .nextstop img {
     border-radius: 198px;
     max-width: 100%;

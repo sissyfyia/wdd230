@@ -8,14 +8,13 @@ fetch(requestURL)
         return response.json();
       }
     })
-      .then(function (jsonObject) {
-      console.table(jsonObject);
-      const temples = jsonObject['temples'];
-      temples.forEach(displaycards);  // temporary checking for valid response and data parsing
-  })
+    .then(function (jsonObject) {
+    console.table(jsonObject);
+    const temples = jsonObject['temples'];
+    temples.forEach(displaycards);
+  });
 
   function displaycards(info) {
-    // Create elements to add to the document
     let card = document.createElement('section');
     let h1 = document.createElement('h1');
     let h2 = document.createElement('h2');
