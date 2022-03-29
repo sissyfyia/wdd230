@@ -1,0 +1,20 @@
+@media only screen and (min-width: 75em)  {
+
+    main .nextstop {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main .nextstop img {
+        max-width: 95%;
+    }
+    
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+}

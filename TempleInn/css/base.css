@@ -11,12 +11,59 @@ header {
     background-color: #536588;
     color: #cecdc8;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Montserrat', sans-serif;
 }
 
 .logotop img {
     max-width: 100px;
 }
+
+a {
+    font-size:1.4rem;
+    line-height:1.5;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #605C4E;
+    border-radius: 10px;
+    text-shadow: 2px 1px rgb(53, 51, 48);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #C7C7A6;
+    text-decoration: none;
+    display:block;
+    padding: 0.8rem 2vw;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+nav ul {display: none;}
+nav ul.open {display:block;}
+
+#dropBtn span:nth-child(1) {display:block;}
+#dropBtn span:nth-child(2) {display:none;}
+
+#dropBtn.open span:nth-child(1) {display:none;}
+#dropBtn.open span:nth-child(2) {display:block;}
+
 
 main {
     background-color: #959390;
@@ -57,9 +104,20 @@ footer {
     background-color: #536588;
     color: #cecdc8;
     font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+footer .social a {
+    padding: 10px;
+}
+
+footer .social img:hover {
+    color: #001C6F;
+    border: #45484D solid 3px;
 }
 
 h2 {
-    text-decoration: underline #001C6F;
     font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 0;
 }

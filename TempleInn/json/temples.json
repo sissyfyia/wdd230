@@ -1,0 +1,33 @@
+{"temples":
+    [
+    {
+        "name": "Fort Collins Temple",
+        "address": "2180 Majestic Dr, Fort Collins, CO 80528",
+        "phone": "(1) 970-797-4630",
+        "dedicated": "16 October 2016",
+        "templeURL": "https://www.churchofjesuschrist.org/temples/details/fort-collins-colorado-temple?lang=eng"
+    },
+    {
+        "name": "Denver Temple",
+        "address": "2001 E Phillips Cir, Centennial, CO 80122",
+        "phone": "(1)303-730-0220",
+        "dedicated": "24 October 1986",
+        "templeURL": "https://www.churchofjesuschrist.org/temples/details/denver-colorado-temple?lang=eng"
+    },
+    {
+        "name": "Albuquerque Temple",
+        "address": "10301 San Francisco Rd NE, Albuquerque, NM 87122",
+        "phone": "(1)505-822-5110",
+        "dedicated": "5 March 2000",
+        "templeURL": "https://www.churchofjesuschrist.org/temples/details/albuquerque-new-mexico-temple?lang=eng"
+    },
+    {
+        "name": "Grand Junction Temple",
+        "address": "Horizon Drive, Grand Junction, CO 81506",
+        "phone": "Not Available",
+        "dedicated": "Not yet dedicated",
+        "templeURL": "https://www.churchofjesuschrist.org/temples/details/grand-junction-colorado-temple?lang=eng"
+    }
+    ]
+
+}
