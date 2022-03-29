@@ -17,20 +17,17 @@ fetch(requestURL)
   function displaycards(info) {
     // Create elements to add to the document
     let card = document.createElement('section');
+    let h1 = document.createElement('h1');
     let h2 = document.createElement('h2');
-    let picture = document.createElement('img');
-    let h4 = document.createElement('h4');
+    let p = document.createElement('p');
 
-    h2.innerHTML = `${info.name}`;
-    h4.innerHTML = `${info.address}, ${info.phone}`
-
-    picture.setAttribute('src', info.image);
-    picture.setAttribute('alt', `Photo of ${info.name} Dedicated ${info.dedicated}`);
-    picture.setAttribute('loading', 'lazy');
+    h1.innerHTML = `${info.name}`;
+    h2.innerHTML = `${info.address}, ${info.phone}`;
+    p.innerHTML = ` The ${info.name} was dedicated ${info.dedicated} by {$info.leader} for more information go to ${info.templeURL}`
 
     card.appendChild(h2);
     card.appendChild(h4);
-    card.appendChild(picture);
+    card.appendChild(p);
 
     tempinfo.appendChild(card);
 
