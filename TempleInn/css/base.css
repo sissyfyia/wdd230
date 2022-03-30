@@ -17,41 +17,45 @@ header {
 
 .logotop img {
     max-width: 100px;
+    border: black 2px solid;
 }
 
 a {
     font-size:1.4rem;
-    line-height:1.5;
+    line-height:1;
 }
 
-nav button {
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #45484D;
+    border-radius: 10px;
+    text-shadow: 2px 1px rgb(53, 51, 48);
+}
+
+nav button #dropBtn {
     margin: .2rem 2vw;
     background: transparent;
     border: none;
     font-size: 2rem;
 }
 
-nav {
-    background-color: #605C4E;
-    border-radius: 10px;
-    text-shadow: 2px 1px rgb(53, 51, 48);
-}
-
 nav ul {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
 
 nav ul li a {
-    color: #C7C7A6;
+    color: #cecdc8;
     text-decoration: none;
     display:block;
     padding: 0.8rem 2vw;
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #45484D;
     color: white;
 }
 
@@ -72,11 +76,22 @@ main {
     padding: 50px 20px;
 }
 
+.hostBtn {
+    text-align: right;
+    align-items: right;
+}
+
+#host {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
     background-color: #001C6F;
     color: #cecdc8;
     border-radius: 5px;
     font-family: 'Shadows Into Light', cursive;
+    padding-left: 10px;
 }
 
 .templeview img {

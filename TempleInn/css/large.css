@@ -9,9 +9,23 @@
         max-width: 95%;
     }
     
-    nav ul li a {
-        padding: .5rem 1rem;
+    #navBar {
+        display: flex;
     }
+
+    #navBar li:first-child {
+        display: none;
+    }
+
+    #navBar li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    /*nav ul li a {
+        padding: .5rem 1rem;
+    }*/
+
 
     h3 {
         font-size: 30px;
