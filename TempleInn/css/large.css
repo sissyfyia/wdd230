@@ -8,7 +8,16 @@
     main .nextstop img {
         max-width: 95%;
     }
-    
+
+    main .timages {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main .timages img {
+        max-width: 430px;
+    }
+
     #navBar {
         display: flex;
     }

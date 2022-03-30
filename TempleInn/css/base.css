@@ -20,6 +20,20 @@ header {
     border: black 2px solid;
 }
 
+
+.calltoAction .button {
+    background-color: #001C6F;
+    color: #cecdc8;
+    border-radius: 5px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+.calltoAction {
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
 a {
     font-size:1.4rem;
     line-height:1;
@@ -59,8 +73,13 @@ nav ul li a:hover {
     color: white;
 }
 
-nav ul {display: none;}
-nav ul.open {display:block;}
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display:block;
+}
 
 #dropBtn span:nth-child(1) {display:block;}
 #dropBtn span:nth-child(2) {display:none;}
@@ -82,21 +101,35 @@ main {
 }
 
 #host {
+    background-color: #536588;
+    color: #cecdc8;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    background-color: #001C6F;
-    color: #cecdc8;
-    border-radius: 5px;
-    font-family: 'Shadows Into Light', cursive;
-    padding-left: 10px;
-}
+
 
 .templeview img {
     max-width: 100%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.templeview h2 {
+    margin-top: 3em;
+}
+
+main .timages {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main .timages img {
+    border-radius: 80px;
+    box-shadow: #666665 0px 26px 15px;
+}
+
+main .timages h2 {
+    margin-left: 120px;
 }
 
 main .nextstop {
