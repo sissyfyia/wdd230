@@ -16,7 +16,7 @@ header {
 }
 
 .logotop img {
-    max-width: 100px;
+    max-width: 150px;
     border: black 2px solid;
 }
 
@@ -124,6 +124,7 @@ main .timages {
 }
 
 main .timages img {
+    max-width: 100%;
     border-radius: 80px;
     box-shadow: #666665 0px 26px 15px;
 }
@@ -175,4 +176,87 @@ footer .social img:hover {
 h2 {
     font-family: 'Shadows Into Light', cursive;
     margin-bottom: 0;
+}
+
+.contact {
+    background-color: #cecdc8;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif
+}
+
+.contact p {
+    line-height: 2em;
+    color: #45484D;
+    font-size: 1.5rem;
+}
+
+.map {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3rem;
+    text-align: center;
+}
+
+.map img {
+    border: #536588 solid 10px;
+}
+
+form {
+    margin: auto;
+    max-width: 850px;
+}
+
+form fieldset{
+    display: block;
+    color: black;
+    margin: auto;
+    padding: 0.5rem 2%;
+    border: 1px solid #45484D;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+form div.select-date {
+    display: flex;
+    padding: 0.5rem 2%;
+}
+
+form legend {
+    color: black;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 28px;
+}
+form label.rooms{
+    display: grid;
+
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #001C6F;
+    color: white;
+    border-radius: 5px;
+    padding: .75rem 1.5rem;
+    margin: 2px 2px 5px 5px;
+    width: 96%;
+    max-width: 15rem;
+    font-size: x-large;
+}
+
+form label.top input {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #45484D;
+    width: 100%;
+    max-width: 15rem;
+    background-color: #cecdc8;
+}
+
+form label.mid {
+    display: block;
+    padding: .75rem 0;
+    color:#45484D;
 }

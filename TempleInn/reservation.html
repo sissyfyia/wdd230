@@ -35,6 +35,179 @@
     </header>
 
     <main>
+        <form method="get" action="completereserve.html">
+        <fieldset>
+            <legend> Reserve Dates</legend>
+            <div class="select-date">
+            <label name="checkin">Date Check-in</label>
+            <select id="select-day">
+                <option value="0">1
+                <option value="1">2
+                <option value="2">3
+                <option value="3">4
+                <option value="4">5
+                <option value="5">6
+                <option value="6">7
+                <option value="7">8
+                <option value="8">9
+                <option value="9">10
+                <option value="10">11
+                <option value="11">12
+                <option value="12">13
+                <option value="13">14
+                <option value="14">15
+            </select>
+            <select id="select-month">
+                <option value="0">January
+                <option value="1">February
+                <option value="2">March
+                <option value="3">April
+                <option value="4">May
+                <option value="5">June
+                <option value="6">July
+                <option value="7">August
+                <option value="8">September
+                <option value="9">October
+                <option value="10">November
+                <option value="11">December
+            </select>
+            <select id="select-year">
+               <option value="0">2022
+               <option value="1">2023
+               <option value="2">2024
+            </select>
+          
+            <label name="checkout">Date Check-out</label>
+            <div class="select-date">
+             <select id="select-day">
+                <option value="0">1
+                <option value="1">2
+                <option value="2">3
+                <option value="3">4
+                <option value="4">5
+                <option value="5">6
+                <option value="6">7
+                <option value="7">8
+                <option value="8">9
+                <option value="9">10
+                <option value="10">11
+                <option value="11">12
+                <option value="12">13
+                <option value="13">14
+                <option value="14">15
+            </select>
+            <select id="select-month">
+                <option value="0">January
+                <option value="1">February
+                <option value="2">March
+                <option value="3">April
+                <option value="4">May
+                <option value="5">June
+                <option value="6">July
+                <option value="7">August
+                <option value="8">September
+                <option value="9">October
+                <option value="10">November
+                <option value="11">December
+            </select>
+            <select id="select-year">
+                <option value="0">2022
+                <option value="1">2023
+                <option value="2">2024
+            </select>
+          </div></fieldset>
+          <fieldset>
+              <legend>Rooms</legend>
+              <label class="rooms"> Single King <input type="radio" name="1king"></label>
+              <select id="roomamount">
+                <option value="0">0
+                <option value="1">1
+                <option value="2">2
+                <option value="3">3
+                <option value="4">4
+                </option></select>
+              
+              <label class="rooms"> Single Queen <input type="radio" name="1queen"></label>
+              <select id="roomamount1">
+                <option value="0">0
+                <option value="1">1
+                <option value="2">2
+                <option value="3">3
+                <option value="4">4
+                <option value="5">5
+                <option value="6">6
+                <option value="7">7
+                <option value="8">8
+                <option value="9">9
+                </option></select>
+              <label class="rooms"> Double Queen <input type="radio" name="2queen"></label>   
+              <select id="roomamount2">
+                <option value="0">0
+                <option value="1">1
+                <option value="2">2
+                <option value="3">3
+                <option value="4">4
+                <option value="5">5
+                <option value="6">6
+                <option value="7">7
+                <option value="8">8
+                <option value="9">9
+                </option></select>
+              <label class="rooms"> Double Queen Suite <input type="radio" name="suite"></label>
+              <select id="roomamount3">
+                <option value="0">0
+                <option value="1">1
+                <option value="2">2
+                <option value="3">3
+                <option value="4">4
+                <option value="5">5
+                </option></select>
+              <label class="rooms"> Kitchenettes <input type="radio" name="kitchen"></label>  
+              <select id="roomamount4">
+                <option value="0">0
+                <option value="1">1
+                <option value="2">2
+                <option value="3">3
+                <option value="4">4
+                </option></select>            
+          </fieldset>
+          <fieldset>
+              <legend>Number of Occupants per Room</legend>
+              <select id="people">
+                  <option value="0">0
+                  <option value="1">1
+                  <option value="2">2
+                  <option value="3">3
+                  <option value="4">4
+                  <option value="5">5
+                  <option value="6">6
+                  <option value="7">7
+                  </option> </select>
+          </fieldset>        
+            <fieldset>
+                <legend>Reservation Information</legend>
+                <label class="top"></label>
+                <legend> Contact Information </legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1234445556" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="youremail@email.com" required></label>
+                <label class="top">Number of Occupants*<input type="text" name="business" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Requests </legend>
+                <label class="mid"><input type="checkbox" name="childcare" id="childcare">Babysitting services  </label>
+                <label class="mid"><input type="checkbox" name="crib" id="crib"> Crib </label>
+                <label class="mid"><input type="checkbox" name="bed" id="bed"> Roll-away bed </label>
+                <label class="mid"> <input type="checkbox" name="lang" id="lang"> Translators</label>
+                <label class="mid"> <input type="checkbox" name="latein" id="latein">Late check-in </label>
+                <label class="mid"> <input type="checkbox" name="lateout" id="lateout">Late check-out </label>
+                <label class="mid"> <input type="checkbox" name="car" id="car">Private transportation </label>
+                </fieldset>
+            <input type="submit" value="Make Reservation" class="submitBtn">
+            <input type= "hidden" name="dateTime" value="dateTime">
+    
+        </form>
 
     </main>
 
