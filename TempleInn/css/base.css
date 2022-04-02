@@ -316,3 +316,17 @@ main div.catering {
     border: 4px solid #536588;
     margin: 2px;
 }
+main div.mtop h1 {
+    border-bottom: 3px double #666665;
+}
+
+main div.mtop p {
+    background-color: #a5a3a1;
+    color: black;
+}
+
+main div.mbottom {
+    margin: 2px;
+    text-align: center;
+}
+
