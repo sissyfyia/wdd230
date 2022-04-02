@@ -11,7 +11,7 @@ header {
     background-color: #536588;
     color: #cecdc8;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 300px 1fr 1fr;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,17 +21,17 @@ header {
 }
 
 
-.calltoAction .button {
+header .calltoAction a {
     background-color: #001C6F;
     color: #cecdc8;
     border-radius: 5px;
     font-family: 'Shadows Into Light', cursive;
     font-size: 30px;
+    padding: 20px;
 }
 
 .calltoAction {
-    margin-left: 140px;
-    margin-top: 20px;
+    margin:auto;
 }
 
 a {
@@ -47,18 +47,12 @@ nav {
     text-shadow: 2px 1px rgb(53, 51, 48);
 }
 
-nav button #dropBtn {
-    margin: .2rem 2vw;
-    background: transparent;
-    border: none;
-    font-size: 2rem;
-}
-
 nav ul {
     list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 0;
+
 }
 
 nav ul li a {
@@ -66,6 +60,13 @@ nav ul li a {
     text-decoration: none;
     display:block;
     padding: 0.8rem 2vw;
+}
+
+nav button #dropBtn {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
 }
 
 nav ul li a:hover {
@@ -259,4 +260,13 @@ form label.mid {
     display: block;
     padding: .75rem 0;
     color:#45484D;
+}
+
+div.twork {
+    text-align: center;
+}
+
+div.twork p {
+    color: black;
+    background-color:#cecdc8;
 }

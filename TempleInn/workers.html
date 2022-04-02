@@ -36,6 +36,23 @@
     </header>
 
     <main>
+    <div class="twork">
+        <h1> Are you a Temple Worker?</h1>
+        <p>If you work monthly at the temple sign up to reserve a room at discounted rates.</p>
+    </div>
+    <div class="twreserve">
+        <form action="completereservation.html" method="get">
+        <fieldset>
+            <legend> Recurring Reservations</legend>
+                <label class="top">Temple you work at:<input type="text" name="temple"></label>
+                <label class="top"> What are your scheduled days? <input type="text" name="schedule"></label>
+                <label class="top"> Room and # of occupants.<input type="textarea" name="request"></label>
+            
+        </fieldset>
+        <input type="submit" value="Make Reservation" class="submitBtn">
+        <input type= "hidden" name="dateTime" value="dateTime">
+    </form>
+    </div>
 
     </main>
 
