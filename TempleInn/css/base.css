@@ -270,3 +270,25 @@ div.twork p {
     color: black;
     background-color:#cecdc8;
 }
+
+div.discounts {
+    display: grid;
+    text-align:center;
+}
+
+main div.off {
+    border: 3px dotted #536588;
+    padding: 1rem;
+    margin: 3px;
+}
+
+main div.plus, main div.longdistance {
+    border: 3px dotted #536588;
+    padding: 1rem;
+    margin: 3px;
+}
+
+div.discounts p {
+    color: black;
+    font-size: 20px;
+}
