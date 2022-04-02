@@ -292,3 +292,27 @@ div.discounts p {
     color: black;
     font-size: 20px;
 }
+
+main div.wed {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem;
+    text-align: center;
+    background-color: #cecdc8;
+    color: black;
+}
+
+main div.wed p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+main div.banquets {
+    border: 4px solid #536588;
+    margin: 2px;
+}
+
+main div.catering {
+    border: 4px solid #536588;
+    margin: 2px;
+}
