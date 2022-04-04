@@ -1,5 +1,5 @@
 
-const apiURL= `https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=39&lon=104&appid=66df575ecb5b3b5511f996e4aaa99495`
+const apiURL= 'https://api.openweathermap.org/data/2.5/weather?lat=39&lon=-104&units=imperial&appid=66df575ecb5b3b5511f996e4aaa99495'
 
 const currentTemp = document.querySelector('#current-temp');
 const weathericon = document.querySelector('#icon-src');

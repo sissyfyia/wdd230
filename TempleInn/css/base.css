@@ -330,3 +330,23 @@ main div.mbottom {
     text-align: center;
 }
 
+main div.dtemple {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+main div.serve {
+    background-color: #45484D;
+    color: #cecdc8;
+    margin: 2rem;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+main div.dinfo {
+    border-left: solid 2px #001C6F;
+    border-right: solid 2px #001C6F;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+}
