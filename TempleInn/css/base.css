@@ -20,8 +20,12 @@ header {
     border: black 2px solid;
 }
 
+header div.calltoAction {
+    margin-top: 1em;
+    padding-left: 3em;
+}
 
-header .calltoAction a {
+header div.calltoAction a {
     background-color: #001C6F;
     color: #cecdc8;
     border-radius: 5px;
@@ -30,10 +34,6 @@ header .calltoAction a {
     padding: 5px;
 }
 
-.calltoAction {
-    margin-top: 1em;
-    padding-left: 3em;
-}
 
 a {
     font-size:1.4rem;
@@ -218,10 +218,10 @@ form fieldset{
     font-size: 22px;
 }
 
-form div.select-date {
+/*form div.select-date {
     display: flex;
     padding: 0.5rem 2%;
-}
+}*/
 
 form legend {
     color: black;

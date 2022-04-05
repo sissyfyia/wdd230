@@ -1,4 +1,4 @@
-@media only screen and (min-width: 75em)  {
+@media only screen and (min-width: 70em)  {
 
     main .nextstop {
         display: grid;
@@ -51,6 +51,11 @@
 
     h3 {
         font-size: 30px;
+    }
+
+    form div.select-date {
+        display: flex;
+        padding: 0.5rem 2%;
     }
 
     main div.dtemple {
