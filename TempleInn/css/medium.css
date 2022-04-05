@@ -1,12 +1,16 @@
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 35em){
 
     nav button {
         display: none;
     }
 
-    nav ul#navBar {
+    nav ul {
         display: flex;
-        margin-left: 2vw;
         justify-content: center;
+        margin-left: 2vw;
+    }
+
+    nav ul li a {
+        border: none;
     }
 }

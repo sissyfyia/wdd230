@@ -39,6 +39,14 @@ a {
     line-height:1;
 }
 
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: black;
+}
+
 nav {
     margin: 0 auto;
     max-width: 760px;
@@ -62,16 +70,8 @@ nav ul li a {
     padding: 0.8rem 2vw;
 }
 
-nav button #dropBtn {
-    margin: .2rem 2vw;
-    background: transparent;
-    border: none;
-    font-size: 2rem;
-}
-
 nav ul li a:hover {
-    background-color: #45484D;
-    color: white;
+    background-color: #959390;
 }
 
 nav ul {

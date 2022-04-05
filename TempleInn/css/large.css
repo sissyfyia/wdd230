@@ -17,8 +17,21 @@
     main .timages img {
         max-width: 430px;
     }
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
 
-    #navBar {
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        margin-left: 2vw;
+    }
+    
+    /*#navBar {
         display: flex;
     }
 
@@ -31,7 +44,7 @@
         flex: 1 1 100%;
     }
 
-    /*nav ul li a {
+    nav ul li a {
         padding: .5rem 1rem;
     }*/
 

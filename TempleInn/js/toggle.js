@@ -3,5 +3,5 @@ function toggleMenu() {
     document.getElementById("dropBtn").classList.toggle("open");
 }
 
-const x = document.getElementById("dropBtn");
+const x = document.getElementById('dropBtn');
 x.onclick = toggleMenu;
