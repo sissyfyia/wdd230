@@ -9,7 +9,7 @@ fetch(requestURL)
       }
     })
   .then(function (jsonObject) {
-  //console.table(jsonObject);
+  console.table(jsonObject);
   const temples = jsonObject['temples'];
   temples.forEach(displaycards);
   });
@@ -29,4 +29,4 @@ fetch(requestURL)
     card.appendChild(p);
 
     tempinfo.appendChild(card);
-  }
+  };
