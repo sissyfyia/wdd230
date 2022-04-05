@@ -45,7 +45,10 @@
         
         <div class="templeview">
             <picture>
-                <img src="images/mainpagepic.jpg" alt="sitelanding">
+                <source media="(min-width: 600px)" srcset="images/mainpagepic.jpg">
+                <source media="(min-width:350px)" srcset="images/smallermain.jpg">
+                <source media="(min-width:200px)" srcset="images/mainpagesmall.jpg">
+                <img src="images/mainpagepic.jpg" alt="sitelanding" style="width:auto;">
             </picture>
 
             <h2>Our Newest Locations...</h2>

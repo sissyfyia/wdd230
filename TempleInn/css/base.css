@@ -313,6 +313,10 @@ main div.banquets {
     margin: 2px;
 }
 
+main div.banquets img {
+    width: 100%;
+}
+
 main div.catering {
     border: 4px solid #536588;
     margin: 2px;
