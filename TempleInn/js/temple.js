@@ -21,8 +21,8 @@ fetch(requestURL)
     let p = document.createElement('p');
 
     h1.innerHTML = `${info.name}`;
-    h2.innerHTML = `${info.address}, ${info.phone}`;
-    p.innerHTML = ` The ${info.name} was dedicated ${info.dedicated} by {$info.leader} for more information go to ${info.templeURL}`;
+    h2.innerHTML = `${info.address}, ${info.phone}, ${info.email}`;
+    p.innerHTML = ` The ${info.name} was ${info.history}. Closing dates are ${info.closed}. Sessions are ${info.sessions} and services available are ${info.services}`;
 
     card.appendChild(h1);
     card.appendChild(h2);
