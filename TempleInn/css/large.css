@@ -1,5 +1,9 @@
 @media only screen and (min-width: 70em)  {
 
+    header div.calltoAction a{
+        font-size: 2em;
+    }
+    
     main .nextstop {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -15,7 +19,8 @@
     }
 
     main .timages img {
-        max-width: 430px;
+        /*max-width: 430px;*/
+        width: 100%;
     }
     nav ul li a {
         padding: .5rem 1rem;
@@ -63,4 +68,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    div.contact p {
+        font-size: 2em;
+    }
 }

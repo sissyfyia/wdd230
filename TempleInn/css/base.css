@@ -30,10 +30,8 @@ header div.calltoAction a {
     color: #cecdc8;
     border-radius: 5px;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 1.5em;
-    padding: 5px;
+    font-size: 1em;
 }
-
 
 a {
     font-size:1.4rem;
@@ -126,8 +124,8 @@ main .timages {
 }
 
 main .timages img {
+    border-radius: 198px;
     max-width: 100%;
-    border-radius: 80px;
     box-shadow: #666665 0px 26px 15px;
 }
 
@@ -180,27 +178,27 @@ h2 {
     margin-bottom: 0;
 }
 
-.contact {
+div.contact {
     background-color: #cecdc8;
     text-align: center;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
-.contact p {
-    line-height: 2em;
+div.contact p#eandp {
     color: #45484D;
-    font-size: 1.5rem;
+    font-size: 2vw;
 }
 
-.map {
+div.map {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3rem;
     text-align: center;
 }
 
-.map img {
+div.map img {
     border: #536588 solid 10px;
+    width: 100%;
 }
 
 form {
@@ -228,9 +226,13 @@ form legend {
     font-family: "Shadows Into Light", cursive;
     font-size: 28px;
 }
+form div.select-date select {
+    display: grid;
+    font-size: 1rem;
+}
+
 form label.rooms{
     display: grid;
-
 }
 
 form input.submitBtn {
@@ -245,6 +247,10 @@ form input.submitBtn {
     font-size: x-large;
 }
 
+form label.top {
+    display: grid;
+}
+
 form label.top input {
     display: block;
     font-size: 1rem;
@@ -252,7 +258,7 @@ form label.top input {
     border-radius: 4px;
     padding: 0.75rem;
     color: #45484D;
-    width: 100%;
+    width: 75%;
     max-width: 15rem;
     background-color: #cecdc8;
 }
@@ -371,4 +377,8 @@ main div.weather {
     font-size: 1.5rem;
     padding: 5px;
     margin: 5px;
+}
+
+div.contact p {
+    font-size: 1em;
 }
