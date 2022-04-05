@@ -333,6 +333,12 @@ main div.serve {
     border-radius: 15px;
 }
 
+main div.more img{
+    border-radius: 198px;
+    max-width: 100%;
+    box-shadow: #666665 0px 26px 15px;
+}
+
 main div.base{
     padding-top: 22px;
     padding-bottom: 0px;
@@ -346,14 +352,14 @@ main div.dtemple h1{
 
 main div.dinfo {
     background-color: #a5a3a1;
-    border-left: solid 2px #001C6F;
+    border-left: solid 4px #001C6F;
     border-radius: 4px;
     padding: 5px;
     margin: 5px;
 }
 
 main div.weather {
-    border-right:#001C6F solid 2px;
+    border-right:#001C6F solid 4px;
     border-radius: 4px;
     background-color: #a5a3a1;
     color: black;
