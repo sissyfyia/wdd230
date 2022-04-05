@@ -325,16 +325,6 @@ main div.mtop p {
     color: black;
 }
 
-main div.mbottom {
-    margin: 2px;
-    text-align: center;
-}
-
-main div.dtemple {
-    padding: 2rem;
-    margin: 1rem;
-}
-
 main div.serve {
     background-color: #45484D;
     color: #cecdc8;
@@ -343,10 +333,31 @@ main div.serve {
     border-radius: 15px;
 }
 
+main div.base{
+    padding-top: 22px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+main div.dtemple h1{
+    padding-top: 2rem;
+    margin: 1rem;
+}
+
 main div.dinfo {
+    background-color: #a5a3a1;
     border-left: solid 2px #001C6F;
-    border-right: solid 2px #001C6F;
     border-radius: 4px;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+main div.weather {
+    border-right:#001C6F solid 2px;
+    border-radius: 4px;
+    background-color: #a5a3a1;
+    color: black;
+    font-size: 1.5rem;
+    padding: 5px;
     margin: 5px;
 }

@@ -40,4 +40,9 @@
         font-size: 30px;
     }
 
+    main div.dtemple {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
