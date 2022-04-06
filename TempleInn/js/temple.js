@@ -1,18 +1,18 @@
 const requestURL ='https://sissyfyia.github.io/wdd230/TempleInn/json/temples.json';
-const tempinfo = document.querySelector('.tempinfo');
+const templego = document.querySelector('.templego');
 
 fetch(requestURL)
   .then(function (response){
-      if (!response.ok) {
-      } else {
-        return response.json();
+    if (!response.ok) {
+    } else {
+      return response.json();
       }
-    })
+  })
   .then(function (jsonObject) {
-  console.table(jsonObject);
-  const temples = jsonObject['temples'];
-  temples.forEach(displaycards);
-  });
+    console.table(jsonObject);
+    const temples = jsonObject['temples'];
+    temples.forEach(displaycards);
+  })
 
   function displaycards(info) {
     let card = document.createElement('section');
@@ -28,5 +28,7 @@ fetch(requestURL)
     card.appendChild(h2);
     card.appendChild(p);
 
-   tempinfo.appendChild(card);
+    templego.appendChild(card);
+    
+    return
   }
