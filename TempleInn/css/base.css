@@ -313,13 +313,15 @@ main div.wed {
     grid-template-columns: 1fr;
     margin: 2rem;
     text-align: center;
-    
-    color: black;
+    font-weight: 400;
+}
+
+main div.wed h1 {
+    font-family: "Shadows Into Light", cursive;
 }
 
 main div.wed p {
     font-size: 22px;
-    font-weight: 300;
 }
 
 main div.banquets {
