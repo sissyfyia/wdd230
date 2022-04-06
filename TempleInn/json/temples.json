@@ -5,7 +5,9 @@
         "address": "2180 Majestic Dr, Fort Collins, CO 80528",
         "phone": "(1) 970-797-4630",
         "email" : "Contact Temple Site for Information",
-        "history" : "Announced: 2 April 2011, Groundbreaking: 24 August 2013, Dedicated: 16 October 2016", 
+        "gb" : "Groundbreaking: 24 August 2013",
+        "dedic" : "Dedicated: 16 October 2016", 
+        "announced" : "Announced: 2 April 2011 ",
         "sessions" : "by appointment",
         "services": "Distribution center nearby",
         "closed" : "4 July 2022, 15 August 2022 - 29 August 2022, 1 October 2022, 23 November 2022 (Limited Operations), Thanksgiving Day, Christmas Eve, Christmas Day, New Years Eve."
@@ -15,7 +17,9 @@
         "address": "2001 E Phillips Cir, Centennial, CO 80122",
         "phone": "(1)303-730-0220",
         "email" : "Contact Temple Site for Information",
-        "history" : "Announced: 31 March 1982, Groundbreaking: 19 May 1984, Dedicated: 24 October 1986", 
+        "gb" : "Groundbreaking: 19 May 1984",
+        "dedic" : "Dedicated: 24 October 1986", 
+        "announced" : "Announced: 31 March 1982",
         "services": "Clothing rental available and Distribution center nearby",
         "sessions" : "by appointment",
         "closed" : "Monday, 18 April 2022 - Monday, 25 April 2022, 4 July 2022, 12 September 2022 - Monday, 24 October 2022, 23 November 2022 (Limited Operations), Thanksgiving Day, Christmas Eve, New Years Eve."
@@ -25,7 +29,9 @@
         "address": "10301 San Francisco Rd NE, Albuquerque, NM 87122",
         "phone": "(1)505-822-5110",
         "email" : "Contact Temple Site for Information",
-        "history" : "Announced: 4 April 1997, Groundbreaking: 20 June 1998, Dedicated: 5 March 2000", 
+        "gb" : "Groundbreaking:  20 June 1998",
+        "dedic" : "Dedicated: 5 March 2000", 
+        "announced" : "Announced: 4 April 1997",
         "services": "Clothing rental available and Distribution center nearby",
         "sessions" : "by appointment only",
         "closed" : "4 April 2022 to 18 April 2022, 3 October 2022 -  17 October 2022,  23 November 2022 (Limited Operations), Thanksgiving Day, Christmas Day, New Years Eve."
@@ -36,7 +42,9 @@
         "phone" : "(1) 435-587-3500",
         "services" : "none available",
         "email" : "Contact Temple Site for Information",
-        "history" : "Announced4 October 1997Groundbreaking: 17 November 1997 Dedicated: 26 July 1998 Rededicated: 17 November 2002", 
+        "gb" : "Groundbreaking: 17 November 1997",
+        "dedic" : "Dedicated: 26 July 1998 and Rededicated: 17 November 2002", 
+        "announced" : "Announced:  4 October 1997",
         "sessions" : "by appointment only",
         "closed" : " 23 July 2022, 25 July 2022 - 28 November 2022, Christmas Eve, New Years Eve."
     }

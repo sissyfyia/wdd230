@@ -382,3 +382,33 @@ main div.weather {
 div.contact p {
     font-size: 1em;
 }
+
+div.templego {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+div.templego section{
+    border: 1px black solid;
+    border-radius: 14px;
+    box-shadow: 5px 10px #cecdc8;
+    margin: 20px;
+    padding: 4px;
+    background-color: #536588;
+    color: black;
+}
+
+div.templego h1 {
+    background-color: #cecdc8;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+div.templego h2 {
+    padding: 12px;
+}
+
+div.templego p {
+    color: #cecdc8;
+}
