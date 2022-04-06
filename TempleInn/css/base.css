@@ -409,6 +409,6 @@ div.templego h2 {
     padding: 12px;
 }
 
-div.templego p {
+div.templego p1, p2 {
     color: #cecdc8;
 }
