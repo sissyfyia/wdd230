@@ -22,11 +22,11 @@ fetch(requestURL)
 
     h1.innerHTML = `${info.name}`;
     h2.innerHTML = `${info.address}, ${info.phone}, ${info.email}`;
-    p.innerHTML = ` The ${info.name} was ${info.history}. Closing dates are ${info.closed}. Sessions are ${info.sessions} and services available are ${info.services}`;
+    p.innerHTML = `The ${info.name} was ${info.history}. Closing dates are ${info.closed}. Sessions are ${info.sessions} and services available are ${info.services}`;
 
     card.appendChild(h1);
     card.appendChild(h2);
     card.appendChild(p);
 
-    tempinfo.appendChild(card);
-  };
+   tempinfo.appendChild(card);
+  }
