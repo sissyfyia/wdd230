@@ -16,6 +16,7 @@
     main .timages {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
     }
 
     main .timages img {
@@ -70,5 +71,26 @@
 
     div.contact p {
         font-size: 2em;
+    }
+
+    div.more {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+    }
+
+    div.wed img {
+        max-width: 900px;
+        border-radius: 10px;
+        box-shadow: 0 20px 30px rgb(156, 154, 154);
+    }
+
+    div.wed p {
+        margin: 40px;
+        text-align: center;
+    }
+
+    nav {
+        margin: auto;
     }
 }
