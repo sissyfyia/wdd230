@@ -126,6 +126,7 @@ main div.walert {
 main .timages {
     display: grid;
     grid-template-columns: 1fr;
+    padding-bottom: 30px;
 }
 
 main .timages img {
@@ -183,6 +184,10 @@ h2 {
     margin-bottom: 0;
 }
 
+/* CSS for other pages  
+
+Contact Page*/
+
 div.contact {
     background-color: #cecdc8;
     text-align: center;
@@ -206,6 +211,13 @@ div.map img {
     width: 100%;
 }
 
+div.contact p {
+    font-size: 1em;
+}
+
+
+/* Reservation Page*/
+
 form {
     margin: auto;
     max-width: 850px;
@@ -220,11 +232,6 @@ form fieldset{
     border-radius: 10px;
     font-size: 22px;
 }
-
-/*form div.select-date {
-    display: flex;
-    padding: 0.5rem 2%;
-}*/
 
 form legend {
     color: black;
@@ -274,6 +281,7 @@ form label.mid {
     color:#45484D;
 }
 
+/*Temple Workers*/
 div.twork {
     text-align: center;
 }
@@ -285,6 +293,8 @@ div.twork p {
     text-align: center;
     margin: auto;
 }
+
+/* Special Offers*/
 
 div.discounts {
     display: grid;
@@ -307,6 +317,8 @@ div.discounts p {
     color: black;
     font-size: 20px;
 }
+
+/*Weddings Page*/
 
 main div.wed {
     display: grid;
@@ -344,6 +356,8 @@ main div.catering h1 {
     background-color: #a5a3a1;
 }
 
+/*Missionary Page*/
+
 main div.mtop h1 {
     border-bottom: 3px double #666665;
 }
@@ -352,6 +366,7 @@ main div.mtop p {
     background-color: #a5a3a1;
     color: black;
 }
+/*Services Page*/
 
 main div.serve {
     background-color: #45484D;
@@ -372,6 +387,8 @@ main div.base{
     padding-bottom: 0px;
     text-align: center;
 }
+
+/*More Index*/
 
 main div.dtemple h1{
     padding-top: 2rem;
@@ -396,9 +413,7 @@ main div.weather {
     margin: 5px;
 }
 
-div.contact p {
-    font-size: 1em;
-}
+/*Temple Info Json*/
 
 div.templego {
     display: grid;
