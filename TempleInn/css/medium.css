@@ -13,4 +13,11 @@
     nav ul li a {
         border: none;
     }
+
+    main div.mbottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
 }

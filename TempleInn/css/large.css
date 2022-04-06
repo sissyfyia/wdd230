@@ -93,4 +93,9 @@
     nav {
         margin: auto;
     }
+
+    main div.mbottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

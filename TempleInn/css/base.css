@@ -354,6 +354,12 @@ main div.mtop p {
     background-color: #a5a3a1;
     color: black;
 }
+
+main div.mbottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
 /*Services Page*/
 
 main div.serve {
@@ -435,3 +441,8 @@ div.templego p1, p2 {
     line-height: 1.4em;
 }
 
+/* Thanks Page*/
+
+main div.fthanks img{
+    width: 75%;
+}
