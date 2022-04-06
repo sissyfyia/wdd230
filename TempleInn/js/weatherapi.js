@@ -5,7 +5,7 @@ const apiURL= `https://api.openweathermap.org/data/2.5/onecall?lat=39&lon=-105&e
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-  console.log(jsObject);
+  //console.log(jsObject);
 
   const currentTemp = document.querySelector('#current-temp');
   const weathericon = document.querySelector('#weathericon');
