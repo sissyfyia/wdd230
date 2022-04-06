@@ -22,7 +22,7 @@ fetch(requestURL)
     let p2 = document.createElement('p2');
 
     h1.innerHTML = `${info.name}`;
-    h2.innerHTML = `Address: ${info.address} <br> Phone: ${info.phone} <br> ${info.email}`;
+    h2.innerHTML = `Address: ${info.address} <br> Phone: ${info.phone} <br> Email: ${info.email}`;
     p1.innerHTML = `${info.announced} <br> ${info.gb} <br> ${info.dedic} <br> The closing dates are ${info.closed} <br> Sessions are ${info.sessions}`;
     p2.innerHTML = `${info.services}`;
 
