@@ -282,6 +282,25 @@ div.twork p {
     margin: auto;
 }
 
+div.twreserve {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.tform {
+    max-width: 500px;
+}
+
+main div.wpics{
+    display: grid;
+    grid-template-columns: 1fr;
+} 
+
+main div.wpics img{
+    max-width: 150px;
+    border-radius: 10px;
+}
+
 /* Special Offers*/
 
 div.discounts {

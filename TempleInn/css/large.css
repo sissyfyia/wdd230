@@ -98,4 +98,17 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    main div.twreserve {
+        grid-gap: 10px;
+    }
+
+    main div.wpics{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main div.wpics img {
+        border-radius: 10px;
+    }
 }
